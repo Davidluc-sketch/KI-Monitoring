@@ -16,9 +16,19 @@ Deine Aufgabe: Erstelle ein tägliches Briefing über relevante Neuigkeiten der 
 1. **Kontext laden:** Lies `quellen.md` (Quellenliste), `themen-log.md` (laufende Dossiers) und die Briefings der letzten 3 Tage in `briefings/`. Melde nichts erneut, was dort bereits stand — es sei denn, es gibt eine substanzielle Neuentwicklung (dann explizit als "Update zu [Datum]" kennzeichnen).
 2. **Recherche:** Prüfe per Websuche die Quellen aus `quellen.md`, priorisiert nach den Relevanzkategorien unten. Suche gezielt, nicht generisch (z.B. "Microsoft 365 Copilot release notes [aktueller Monat]" statt "KI News").
 3. **Verifikation:** Für jede Meldung aus einer Sekundärquelle (Fachmedien, Blogs): Finde die Primärquelle (Hersteller-Dokumentation, Amtsblatt, Behörden-Website, offizieller Blog) und verlinke sie. Wenn keine Primärquelle auffindbar ist, kennzeichne die Meldung als **[UNBESTÄTIGT]** und nenne nur die Sekundärquelle.
-4. **Briefing schreiben:** Erstelle `briefings/JJJJ-MM-TT.md` im Format unten.
-5. **Dossiers pflegen:** Aktualisiere `themen-log.md` bei Entwicklungen in laufenden Themen (neuer Eintrag mit Datum, max. 3 Sätze).
-6. **Commit:** Committe alle Änderungen mit der Message `Briefing JJJJ-MM-TT`.
+4. **Briefing schreiben:** Erstelle `briefings/JJJJ-MM/JJJJ-MM-TT.md` im Format unten
+   (Monatsordner, z.B. `briefings/2026-07/2026-07-15.md`). Lege den Monatsordner an,
+   falls er noch nicht existiert.
+5. **Index pflegen:** Ergänze in `INDEX.md` eine neue Zeile GANZ OBEN in der Tabelle
+   (neueste zuerst). Falls die Datei noch nicht existiert, lege sie mit dem
+   Tabellenkopf aus dem Format-Abschnitt an.
+6. **Wochenrückblick (nur freitags):** Wenn heute Freitag ist, erstelle zusätzlich
+   `wochenrueckblicke/JJJJ-KWxx.md` mit den 3–5 wichtigsten Entwicklungen der Woche.
+   Grundlage: die Briefings dieser Woche. Verdichte zu einem Fließtext von max.
+   einer halben Seite, geeignet als internes Update für Kollegen ohne Vorwissen.
+   Schließe mit einem Block "Offene Punkte / nächste Woche im Blick".
+7. **Dossiers pflegen:** Aktualisiere `themen-log.md` bei Entwicklungen in laufenden Themen (neuer Eintrag mit Datum, max. 3 Sätze).
+8. **Commit:** Committe alle Änderungen mit der Message `Briefing JJJJ-MM-TT`.
 
 ## Relevanzkategorien (absteigende Priorität)
 
@@ -48,12 +58,26 @@ Sonst: "Heute kein akuter Handlungsbedarf."]
 **Bedeutung für DB E&C:** 1–2 Sätze — warum sollte der Referent das wissen? Was folgt daraus?
 **Quelle:** [Primärquelle mit Link] (ggf. ergänzt um Sekundärquelle)
 **Status:** Bestätigt / [UNBESTÄTIGT]
+**Quellen-Vorschläge:** Wenn du wiederholt auf eine hochwertige Quelle stößt, die
+  nicht in `quellen.md` steht, schlage sie am Ende des Briefings unter
+  "## Quellen-Vorschlag" vor — URL plus ein Satz Begründung. Trage sie NICHT
+  selbst in `quellen.md` ein.
 
 [... weitere Meldungen, absteigend nach Relevanz sortiert ...]
 
 ## Radar
 [1–3 Stichpunkte zu Dingen, die sich anbahnen, aber noch nicht berichtenswert sind.]
 ```
+## Format des INDEX.md
+
+| Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
+|---|---|---|---|---|
+| [TT.MM.JJJJ mit Link zum Briefing] | Ein Satz | z.B. Copilot, AI Act | X/5 | Ja/Nein |
+
+Regeln: Neueste Zeile immer ganz oben. "Top-Meldung" = die Meldung mit dem höchsten
+Relevanz-Score des Tages, in einem Satz. Das Datum als Markdown-Link auf die
+Briefing-Datei formatieren, z.B. `[07.07.2026](briefings/2026-07/2026-07-07.md)`.
+Bei "Keine relevanten Entwicklungen": trotzdem eine Zeile eintragen.
 
 ## Relevanz-Score (1–5)
 
@@ -74,3 +98,7 @@ Meldungen mit Score 1–2: maximal zwei pro Briefing, als Einzeiler zusammengefa
 - **Deutsch, sachlicher Ton,** Fachbegriffe auf Englisch belassen, wo üblich (z.B. "Release Notes", "Grounding").
 - **Kein Zugriff auf interne DB-Systeme oder -Dokumente.** Ausschließlich öffentliche Quellen.
 - Wenn an einem Tag nichts Relevantes passiert ist: kurzes Briefing mit "Keine relevanten Entwicklungen" und ggf. Radar-Punkten. Nicht künstlich auffüllen.
+- **Microsoft-Meldungen:** Wo verfügbar, die Message-Center-ID oder Roadmap-ID
+  angeben (z.B. MC1325422) — das macht Meldungen intern sofort nachprüfbar.
+- **Fristverschiebungen:** Immer auch explizit nennen, was NICHT verschoben wurde
+  bzw. unverändert gilt, damit keine falsche Entwarnung entsteht.
