@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KI-Lagebild — Monitoring DB E&C</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F2F4F6; --card:#FFFFFF; --ink:#16202B; --muted:#5A6B7C;
+    --line:#D6DDE4; --blau:#10508C; --signal:#C8102E;
+    --k-copilot:#10508C; --k-aiact:#6A4C93; --k-datenschutz:#0E7C7B;
+    --k-modelle:#A6690A; --k-branche:#3E7A3E; --k-sonst:#5A6B7C;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --sans:'IBM Plex Sans',system-ui,sans-serif;
+    --cond:'IBM Plex Sans Condensed','Arial Narrow',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} .fade{animation:none!important}}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55}
+  a{color:var(--blau)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--blau);outline-offset:2px}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px 72px}
+
+  /* Masthead */
+  header{border-bottom:3px solid var(--ink);padding:28px 0 18px;margin-bottom:26px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:6px}
+  h1{font-family:var(--cond);font-weight:700;font-size:clamp(30px,5vw,44px);letter-spacing:.01em;text-transform:uppercase}
+  h1 .thin{color:var(--blau)}
+  .stand{font-family:var(--mono);font-size:13px;color:var(--muted)}
+  .stand strong{color:var(--ink);font-weight:500}
+
+  .fade{animation:fadeUp .5s ease both}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  /* Handlungsbedarf */
+  .bulletin{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--signal);padding:16px 20px;margin-bottom:26px}
+  .bulletin.ok{border-left-color:var(--k-branche)}
+  .bulletin .label{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+  .bulletin .label.rot{color:var(--signal)} .bulletin .label.gruen{color:var(--k-branche)}
+  .bulletin ul{margin:8px 0 0 18px}
+  .bulletin li{margin-bottom:4px}
+  .bulletin p{margin-top:6px;color:var(--muted)}
+
+  /* Section heads */
+  h2{font-family:var(--cond);font-weight:700;font-size:20px;text-transform:uppercase;letter-spacing:.04em;
+     display:flex;align-items:center;gap:12px;margin:34px 0 14px}
+  h2::after{content:"";flex:1;height:1px;background:var(--line)}
+  h2 .count{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:400;letter-spacing:0}
+
+  /* Meldungs-Karten */
+  .card{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--k-sonst);padding:18px 22px;margin-bottom:14px}
+  .card-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+  .chip{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border:1px solid currentColor;border-radius:2px}
+  .signal{display:inline-flex;align-items:center;gap:8px;margin-left:auto}
+  .signal .dots{display:inline-flex;gap:4px}
+  .signal .dot{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--muted);background:transparent}
+  .signal .dot.on{border-color:transparent}
+  .signal .score{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .card h3{font-family:var(--cond);font-weight:600;font-size:19px;line-height:1.3;margin-bottom:10px}
+  .kv{margin-bottom:8px}
+  .kv .k{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:1px}
+  .card-foot{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);font-size:13px}
+  .badge{font-family:var(--mono);font-size:11px;padding:2px 8px;border-radius:2px}
+  .badge.ok{background:#E4F0E4;color:#2E5A2E}
+  .badge.unbestaetigt{background:#FBEAEA;color:var(--signal)}
+  .msid{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+  /* Radar */
+  .radar{background:transparent;border:1px dashed var(--muted);padding:14px 20px}
+  .radar ul{margin-left:18px} .radar li{margin-bottom:4px;color:var(--muted)}
+
+  /* Filter + Archiv */
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .filters button{font-family:var(--mono);font-size:12px;letter-spacing:.05em;padding:5px 12px;border:1px solid var(--line);
+     background:var(--card);color:var(--muted);cursor:pointer;border-radius:2px}
+  .filters button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line)}
+  th{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+     text-align:left;padding:10px 14px;border-bottom:2px solid var(--ink);font-weight:500}
+  td{padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+  tr:last-child td{border-bottom:none}
+  td.datum{font-family:var(--mono);font-size:13px;white-space:nowrap}
+  td .mini{display:inline-flex;gap:3px;vertical-align:middle}
+  td .mini .dot{width:7px;height:7px;border-radius:50%;border:1px solid var(--muted)}
+  td .mini .dot.on{background:var(--ink);border-color:var(--ink)}
+  td .hb{color:var(--signal);font-weight:600}
+  .kats{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .empty{color:var(--muted);font-style:italic;padding:14px 0}
+
+  footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--line);
+     font-family:var(--mono);font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  @media(max-width:640px){
+    .card{padding:14px 16px} .signal{margin-left:0;width:100%}
+    th:nth-child(3),td:nth-child(3){display:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="fade">
+    <div class="eyebrow">KI-Monitoring · Copilot · AI Act · Data Governance</div>
+    <div class="mast">
+      <h1>KI-<span class="thin">Lagebild</span></h1>
+      <div class="stand">Stand: <strong id="stand">—</strong></div>
+    </div>
+  </header>
+
+  <section id="handlungsbedarf" class="fade"></section>
+
+  <h2 class="fade">Meldungen des Tages <span class="count" id="meldungen-count"></span></h2>
+  <section id="meldungen" class="fade"></section>
+
+  <section id="radar-sec" class="fade"></section>
+
+  <h2 class="fade">Archiv</h2>
+  <div class="filters fade" id="filters" role="group" aria-label="Nach Kategorie filtern"></div>
+  <div class="fade">
+    <table aria-label="Briefing-Archiv">
+      <thead><tr><th>Datum</th><th>Top-Meldung</th><th>Kategorien</th><th>Relevanz</th><th>Bedarf</th></tr></thead>
+      <tbody id="archiv"></tbody>
+    </table>
+    <p class="empty" id="archiv-leer" hidden>Keine Einträge für diesen Filter.</p>
+  </div>
+
+  <footer>
+    <span>Quelle: automatisiertes Monitoring (Claude Routine) · Repo: ki-monitoring</span>
+    <span>Alle Angaben ohne Gewähr — Primärquellen prüfen</span>
+  </footer>
+</div>
+
+<script>
+/* ================================================================
+   DASHBOARD-DATEN — dieser Block wird von der Routine gepflegt.
+   Regeln für die Routine:
+   - NUR den JSON-Inhalt zwischen DATA-START und DATA-END ersetzen.
+   - Neuestes Briefing an Position 0. Maximal 60 Briefings behalten.
+   - kategorie ∈ ["Copilot","AI Act","Datenschutz","Modelle","Branche"]
+   ================================================================ */
+/* DATA-START */
+window.DASHBOARD_DATA = {
+  "stand": "2026-07-07",
+  "briefings": [
+    {
+      "datum": "2026-07-07",
+      "datei": "briefings/2026-07-07.md",
+      "handlungsbedarf": [
+        "Copilot: Neues Chat-Design wird am 15.07.2026 verpflichtend (Work-IQ-Schalter ersetzt Work/Web). Vorher prüfen, ob tenant-weite Einstellungen im Admin Center angepasst und Nutzer informiert werden sollen."
+      ],
+      "meldungen": [
+        {
+          "titel": "Neues Copilot-Chat-Design wird zum 15.07. Standard — Work IQ ersetzt Work/Web-Schalter",
+          "kategorie": "Copilot",
+          "relevanz": 5,
+          "was": "Der weltweite Rollout des neuen Copilot-App-Designs läuft seit 22.06.; der Opt-out-Schalter entfällt am 15.07.2026. Die Grounding-Schalter Work/Web werden zu einem einzigen 'Work IQ'-Schalter zusammengefasst, der standardmäßig Unternehmensdaten und Web kombiniert.",
+          "bedeutung": "Nutzerkommunikation vorbereiten; Work IQ respektiert bestehende Berechtigungen und DLP-Richtlinien — primär ein UI-Wechsel, kein neues Datenzugriffsmodell.",
+          "quelle": {"label": "Microsoft Message Center (Archiv)", "url": "https://mc.merill.net/message/MC1325422"},
+          "msid": "MC1325422",
+          "status": "Bestätigt"
+        },
+        {
+          "titel": "Digital Omnibus final: Hochrisiko-Pflichten des AI Act verschieben sich auf Dez. 2027 / Aug. 2028",
+          "kategorie": "AI Act",
+          "relevanz": 4,
+          "was": "Der Rat der EU hat am 29.06.2026 den Digital Omnibus on AI final gebilligt. Pflichten für eigenständige Hochrisiko-Systeme (Anhang III) gelten ab 02.12.2027, für eingebettete Systeme (Anhang I) ab 02.08.2028. Veröffentlichung im EU-Amtsblatt steht noch aus.",
+          "bedeutung": "Interne Compliance-Planung mit Stichtag 02.08.2026 überprüfen. Achtung: Transparenzpflichten nach Art. 50 gelten weiterhin ab 02.08.2026 — nicht alles ist verschoben.",
+          "quelle": {"label": "Heuking: KI-Omnibus 2026", "url": "https://www.heuking.de/de/news-events/newsletter-fachbeitraege/artikel/ki-omnibus-2026-trilog-einigung-zur-aenderung-des-ai-act-bringt-laengere-fristen-und-weniger-buerokratie.html"},
+          "msid": "",
+          "status": "Bestätigt"
+        }
+      ],
+      "radar": [
+        "EU-Amtsblatt: Veröffentlichung des Digital Omnibus muss bis 30.07.2026 erfolgen — beobachten."
+      ]
+    }
+  ]
+};
+/* DATA-END */
+
+/* ============ Rendering (nicht von der Routine anfassen) ============ */
+(function(){
+  const D = window.DASHBOARD_DATA || {briefings:[]};
+  const katFarben = {"Copilot":"var(--k-copilot)","AI Act":"var(--k-aiact)","Datenschutz":"var(--k-datenschutz)","Modelle":"var(--k-modelle)","Branche":"var(--k-branche)"};
+  const farbe = k => katFarben[k] || "var(--k-sonst)";
+  const fmt = iso => { const [j,m,t] = iso.split("-"); return `${t}.${m}.${j}`; };
+  const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+  document.getElementById("stand").textContent = D.stand ? fmt(D.stand) : "—";
+  const heute = D.briefings[0];
+
+  /* Handlungsbedarf */
+  const hb = document.getElementById("handlungsbedarf");
+  if (heute && heute.handlungsbedarf && heute.handlungsbedarf.length){
+    hb.innerHTML = `<div class="bulletin"><span class="label rot">■ Handlungsbedarf</span>
+      <ul>${heute.handlungsbedarf.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  } else {
+    hb.innerHTML = `<div class="bulletin ok"><span class="label gruen">■ Kein akuter Handlungsbedarf</span>
+      <p>Heute keine Punkte mit Frist oder direktem To-do.</p></div>`;
+  }
+
+  /* Signal-Punkte */
+  const dots = (n, col) => `<span class="dots" aria-hidden="true">${[1,2,3,4,5].map(i =>
+    `<span class="dot${i<=n?" on":""}"${i<=n?` style="background:${col}"`:""}></span>`).join("")}</span>`;
+
+  /* Meldungen */
+  const mBox = document.getElementById("meldungen");
+  const ms = (heute && heute.meldungen) || [];
+  document.getElementById("meldungen-count").textContent = ms.length ? `${ms.length} Einträge · ${heute?fmt(heute.datum):""}` : "";
+  mBox.innerHTML = ms.length ? ms.map(m => `
+    <article class="card" style="border-left-color:${farbe(m.kategorie)}">
+      <div class="card-top">
+        <span class="chip" style="color:${farbe(m.kategorie)}">${esc(m.kategorie)}</span>
+        <span class="signal">${dots(m.relevanz, farbe(m.kategorie))}
+          <span class="score">Relevanz ${m.relevanz}/5</span></span>
+      </div>
+      <h3>${esc(m.titel)}</h3>
+      <p class="kv"><span class="k">Was ist passiert</span>${esc(m.was)}</p>
+      <p class="kv"><span class="k">Bedeutung für DB E&amp;C</span>${esc(m.bedeutung)}</p>
+      <div class="card-foot">
+        ${m.quelle && m.quelle.url ? `<a href="${esc(m.quelle.url)}" target="_blank" rel="noopener">Quelle: ${esc(m.quelle.label||m.quelle.url)}</a>` : ""}
+        ${m.msid ? `<span class="msid">${esc(m.msid)}</span>` : ""}
+        <span class="badge ${m.status==="Bestätigt"?"ok":"unbestaetigt"}">${esc(m.status||"")}</span>
+      </div>
+    </article>`).join("")
+    : `<p class="empty">Keine relevanten Entwicklungen im aktuellen Briefing.</p>`;
+
+  /* Radar */
+  const rSec = document.getElementById("radar-sec");
+  if (heute && heute.radar && heute.radar.length){
+    rSec.innerHTML = `<h2>Radar</h2><div class="radar"><ul>${heute.radar.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  }
+
+  /* Archiv + Filter */
+  const alleKats = [...new Set(D.briefings.flatMap(b => (b.meldungen||[]).map(m=>m.kategorie)))];
+  const fBox = document.getElementById("filters");
+  let aktiv = "Alle";
+  const zeile = b => {
+    const kats = [...new Set((b.meldungen||[]).map(m=>m.kategorie))];
+    const top = (b.meldungen||[])[0];
+    const maxR = Math.max(0, ...((b.meldungen||[]).map(m=>m.relevanz||0)));
+    return `<tr data-kats="${esc(kats.join("|"))}">
+      <td class="datum"><a href="${esc(b.datei||"#")}">${fmt(b.datum)}</a></td>
+      <td>${top ? esc(top.titel) : "Keine relevanten Entwicklungen"}</td>
+      <td class="kats">${esc(kats.join(", "))||"—"}</td>
+      <td><span class="mini" aria-label="Relevanz ${maxR} von 5">${[1,2,3,4,5].map(i=>`<span class="dot${i<=maxR?" on":""}"></span>`).join("")}</span></td>
+      <td>${(b.handlungsbedarf||[]).length ? '<span class="hb">●</span>' : "—"}</td></tr>`;
+  };
+  const tb = document.getElementById("archiv");
+  tb.innerHTML = D.briefings.map(zeile).join("");
+  const leer = document.getElementById("archiv-leer");
+  const filter = () => {
+    let sichtbar = 0;
+    tb.querySelectorAll("tr").forEach(tr => {
+      const ok = aktiv==="Alle" || (tr.dataset.kats||"").split("|").includes(aktiv);
+      tr.hidden = !ok; if (ok) sichtbar++;
+    });
+    leer.hidden = sichtbar>0;
+  };
+  const mkBtn = name => {
+    const b = document.createElement("button");
+    b.textContent = name; b.setAttribute("aria-pressed", String(name===aktiv));
+    b.addEventListener("click", () => { aktiv=name;
+      fBox.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", String(x.textContent===aktiv)));
+      filter(); });
+    return b;
+  };
+  fBox.append(mkBtn("Alle"), ...alleKats.map(mkBtn));
+  filter();
+})();
+</script>
+</body>
+</html>
