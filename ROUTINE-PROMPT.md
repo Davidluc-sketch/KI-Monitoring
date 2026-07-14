@@ -22,13 +22,20 @@ Deine Aufgabe: Erstelle ein tägliches Briefing über relevante Neuigkeiten der 
 5. **Index pflegen:** Ergänze in `INDEX.md` eine neue Zeile GANZ OBEN in der Tabelle
    (neueste zuerst). Falls die Datei noch nicht existiert, lege sie mit dem
    Tabellenkopf aus dem Format-Abschnitt an.
-6. **Wochenrückblick (nur freitags):** Wenn heute Freitag ist, erstelle zusätzlich
+6. **Dashboard aktualisieren:** Öffne `dashboard.html` und ersetze AUSSCHLIESSLICH
+   den JSON-Inhalt zwischen den Markierungen /* DATA-START */ und /* DATA-END */.
+   Setze "stand" auf das heutige Datum und füge das heutige Briefing als ERSTES
+   Element in "briefings" ein (Struktur wie die vorhandenen Einträge: datum, datei,
+   handlungsbedarf, meldungen mit titel/kategorie/relevanz/was/bedeutung/quelle/
+   msid/status, radar). Behalte maximal 60 Briefings. Verändere NICHTS am
+   restlichen HTML/CSS/JavaScript der Datei.
+7. **Wochenrückblick (nur freitags):** Wenn heute Freitag ist, erstelle zusätzlich
    `wochenrueckblicke/JJJJ-KWxx.md` mit den 3–5 wichtigsten Entwicklungen der Woche.
    Grundlage: die Briefings dieser Woche. Verdichte zu einem Fließtext von max.
    einer halben Seite, geeignet als internes Update für Kollegen ohne Vorwissen.
    Schließe mit einem Block "Offene Punkte / nächste Woche im Blick".
-7. **Dossiers pflegen:** Aktualisiere `themen-log.md` bei Entwicklungen in laufenden Themen (neuer Eintrag mit Datum, max. 3 Sätze).
-8. **Commit:** Committe alle Änderungen mit der Message `Briefing JJJJ-MM-TT`.
+8. **Dossiers pflegen:** Aktualisiere `themen-log.md` bei Entwicklungen in laufenden Themen (neuer Eintrag mit Datum, max. 3 Sätze).
+9. **Commit:** Committe alle Änderungen mit der Message `Briefing JJJJ-MM-TT`.
 
 ## Relevanzkategorien (absteigende Priorität)
 
