@@ -144,8 +144,62 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-07-07",
+  "stand": "2026-07-14",
   "briefings": [
+    {
+      "datum": "2026-07-14",
+      "datei": "briefings/2026-07/2026-07-14.md",
+      "handlungsbedarf": [
+        "Restricted SharePoint Search wird ab 31.07.2026 nicht mehr neu aktivierbar (vollständige Abschaltung 31.01.2027). Wer RSS als Schutzschalter nutzt, sollte vor dem 31.07. auf Restricted Content Discovery (RCD) umstellen bzw. Berechtigungen bereinigen."
+      ],
+      "meldungen": [
+        {
+          "titel": "Restricted SharePoint Search wird abgekündigt — Umstieg auf Restricted Content Discovery nötig",
+          "kategorie": "Copilot",
+          "relevanz": 5,
+          "was": "Microsoft hatte die Abkündigung von Restricted SharePoint Search (RSS) per Message-Center-Post MC1395311 (18.06.2026) angekündigt; die Frist wird jetzt akut: Ab 31.07.2026 lässt sich RSS nicht mehr neu einschalten, am 31.01.2027 wird es vollständig abgeschaltet. Microsoft migriert bestehende RSS-Einstellungen nicht automatisch.",
+          "bedeutung": "Falls RSS als Guardrail gegen zu freizügige Freigaben genutzt wird, drohen nach dem Stichtag breitere Such- und Copilot-Ergebnisse auf zuvor zurückgehaltene Inhalte. Rechtzeitig vor dem 31.07. auf RCD migrieren.",
+          "quelle": {"label": "Microsoft Learn — Restricted SharePoint Search", "url": "https://learn.microsoft.com/en-us/sharepoint/restricted-sharepoint-search"},
+          "msid": "MC1395311",
+          "status": "Bestätigt"
+        },
+        {
+          "titel": "Bundesrat billigt KI-Durchführungsgesetz — Bundesnetzagentur wird zentrale KI-Marktüberwachungsbehörde",
+          "kategorie": "AI Act",
+          "relevanz": 4,
+          "was": "Der Bundesrat hat am 10.07.2026 das Gesetz zur Durchführung der EU-KI-Verordnung gebilligt. Die Bundesnetzagentur wird zentrale Marktüberwachungsbehörde, richtet eine Koordinierungsstelle ein und betreibt mind. ein KI-Reallabor. Das Gesetz tritt am Tag nach Verkündung im Bundesgesetzblatt in Kraft — die Verkündung steht noch aus.",
+          "bedeutung": "Die deutsche Aufsichtsstruktur für den AI Act steht fest; Bundesnetzagentur ist zentraler Ansprechpartner für Marktüberwachung, Meldungen und Beschwerden.",
+          "quelle": {"label": "Bundesrat — Rückblick Plenarsitzung 10.07.2026", "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-pk.html"},
+          "msid": "",
+          "status": "Bestätigt"
+        },
+        {
+          "titel": "EDPB verabschiedet Leitlinien zu Web-Scraping für generative KI und zur Anonymisierung",
+          "kategorie": "Datenschutz",
+          "relevanz": 4,
+          "was": "Der EDPB hat am 08.07.2026 Guidelines 02/2026 zur Anonymisierung sowie erstmals Leitlinien zu Web-Scraping im Kontext generativer KI verabschiedet (Rechtsgrundlage, Zweckbindung, Transparenz). Beide Entwürfe sind bis 30.10.2026 zur öffentlichen Konsultation freigegeben.",
+          "bedeutung": "Relevant für die Bewertung von Foundation-Model-Anbietern, deren Trainingsdaten per Web-Scraping gewonnen wurden, sowie für eigene Anonymisierungspraxis vor KI-Verarbeitung.",
+          "quelle": {"label": "EDPB — News vom 08.07.2026", "url": "https://www.edpb.europa.eu/news/edpb-sheds-light-on-anonymisation-and-web-scraping-for-generative-ai-and-adopts-final-version_en"},
+          "msid": "",
+          "status": "Bestätigt"
+        },
+        {
+          "titel": "DB startet 50-Mio.-Euro-Programm für KI-gestützte Kundenkommunikation — KI-Assistentin \"Kiana\"",
+          "kategorie": "Branche",
+          "relevanz": 3,
+          "was": "DB-Chefin Evelyn Palla und Bundesverkehrsminister Patrick Schnieder stellten am 08.07.2026 ein bis Ende 2027 laufendes ca. 50-Mio.-Euro-Programm für IT, KI und neue Informationssysteme vor. Kernstück ist die KI-Assistentin \"Kiana\", die ab Ende 2026 Reisefragen in über 100 Sprachen beantworten soll.",
+          "bedeutung": "Konzernweit sichtbares KI-Leuchtturmprojekt außerhalb von M365 Copilot — relevant für Auskunftsfähigkeit und mögliche Governance-Berührungspunkte.",
+          "quelle": {"label": "Deutsche Bahn Presseportal", "url": "https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/KI-Assistenz-Kiana-beraet-Bahnreisende-am-Flughafenbahnhof-BER-13476698"},
+          "msid": "",
+          "status": "Bestätigt"
+        }
+      ],
+      "radar": [
+        "EU-Amtsblatt: Veröffentlichung des final gebilligten Digital Omnibus on AI steht weiterhin aus, muss vor 02.08.2026 erfolgen.",
+        "Microsoft Purview DLP-Kontrolle gegen Copilot-Websuche bei sensiblen Prompts (MC1263277) im GA-Rollout, Abschluss für Ende Juli 2026 angekündigt.",
+        "Claude-Modelle in Copilot für EU/UK-Tenants standardmäßig deaktiviert (außerhalb EU-Datengrenze) — bei Default-Änderung eigenes Thema."
+      ]
+    },
     {
       "datum": "2026-07-07",
       "datei": "briefings/2026-07-07.md",
