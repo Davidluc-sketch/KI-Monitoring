@@ -144,8 +144,42 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-07-14",
+  "stand": "2026-07-15",
   "briefings": [
+    {
+      "datum": "2026-07-15",
+      "datei": "briefings/2026-07/2026-07-15.md",
+      "handlungsbedarf": [
+        "OpenAI-Modelle werden ab 24.07.2026 automatisch als Subprocessor in M365 Copilot aktiviert, wenn keine Admin-Entscheidung getroffen wird. Im M365 Admin Center jetzt prüfen, ob OpenAI-eigene Infrastruktur als zusätzlicher Auftragsverarbeiter zugelassen werden soll."
+      ],
+      "meldungen": [
+        {
+          "titel": "OpenAI-Modelle werden neuer Subprocessor in M365 Copilot — Admin-Entscheidung bis 24.07.2026 nötig",
+          "kategorie": "Copilot",
+          "relevanz": 5,
+          "was": "Seit 09.07.2026 rollt im M365 Admin Center eine neue Einstellung aus, die OpenAI-Modelle (u. a. GPT-5.6) auf OpenAI-eigener Infrastruktur als zusätzlichen Subprocessor für M365 Copilot, Copilot in M365-Apps und Copilot Studio verfügbar macht. Die Einstellung ist zunächst deaktiviert; trifft der Admin bis 24.07.2026 keine Entscheidung, aktiviert Microsoft sie automatisch.",
+          "bedeutung": "Neuer Subprocessor = neue Verarbeiterkette, die vor Aktivierung datenschutzrechtlich bewertet werden sollte (AVV-Kette, Datenresidenz OpenAI vs. Azure-OpenAI). Admin-Entscheidung jetzt anstoßen, nicht erst nach dem 24.07.",
+          "quelle": {"label": "Microsoft Learn — OpenAI as a subprocessor", "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/openai-subprocessor"},
+          "msid": "MC1422074",
+          "status": "Bestätigt"
+        },
+        {
+          "titel": "Update zu 07.07.2026: Neue Copilot-Oberfläche heute für Standard-Release-Tenants verpflichtend",
+          "kategorie": "Copilot",
+          "relevanz": 2,
+          "was": "Wie am 07.07.2026 angekündigt, entfällt zum 15.07.2026 für Standard-Release-Tenants der Opt-out-Schalter zur alten Copilot-Oberfläche; die neue Oberfläche mit konsolidiertem Work-IQ-Schalter ist jetzt Standard. Deferred-Release-Tenants behalten die Wahl bis 22.08.2026.",
+          "bedeutung": "UI-Wechsel ohne neues Datenzugriffsmodell — Work IQ respektiert laut Microsoft bestehende Berechtigungen und DLP-Richtlinien. Relevant nur für Nutzerkommunikation.",
+          "quelle": {"label": "Microsoft 365 Blog — Introducing a new design", "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/"},
+          "msid": "MC1325422",
+          "status": "Bestätigt"
+        }
+      ],
+      "radar": [
+        "EDPB High-Level-Event am 16.–17.07.2026 in Dublin — mögliche neue Aussagen zu KI/Datenschutz, im nächsten Briefing prüfen.",
+        "Amtsblatt-Veröffentlichung des Digital Omnibus on AI weiterhin ausstehend, muss vor 02.08.2026 erfolgen.",
+        "Verkündung des deutschen KI-Durchführungsgesetzes im Bundesgesetzblatt weiterhin ausstehend seit 10.07.2026."
+      ]
+    },
     {
       "datum": "2026-07-14",
       "datei": "briefings/2026-07/2026-07-14.md",
