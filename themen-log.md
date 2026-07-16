@@ -11,3 +11,9 @@
 
 ## Deutsches KI-Durchführungsgesetz / Aufsichtsstruktur
 - **14.07.2026:** Bundesrat billigt am 10.07.2026 das KI-Durchführungsgesetz; Bundesnetzagentur wird zentrale KI-Marktüberwachungsbehörde mit Koordinierungsstelle und mind. einem KI-Reallabor. Gesetz noch nicht im Bundesgesetzblatt verkündet, tritt am Tag nach Verkündung in Kraft.
+
+## BDSG-Reform — Gesetzliche Verankerung der Datenschutzkonferenz (DSK)
+- **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
+
+## EU-US Data Privacy Framework / "Schrems III"
+- **16.07.2026 (Radar):** Nach dem US-Supreme-Court-Urteil zur FTC-Unabhängigkeit (29.06.2026) kündigte noyb/Schrems eine EuGH-Klage gegen den Angemessenheitsbeschluss an ("in den kommenden Wochen"). Noch keine Klage eingereicht, Beschluss gilt unverändert fort — potenziell relevant für die Verarbeiterkette hinter Copilot (Azure/OpenAI/Anthropic).
