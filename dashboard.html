@@ -144,8 +144,35 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-07-17",
+  "stand": "2026-07-20",
   "briefings": [
+    {
+      "datum": "2026-07-20",
+      "datei": "briefings/2026-07/2026-07-20.md",
+      "handlungsbedarf": [
+        "Frist rückt näher: Admin-Entscheidung zur OpenAI-Subprocessor-Einstellung in M365 Copilot bis 24.07.2026 (in 4 Tagen). Ohne Entscheidung aktiviert Microsoft die Einstellung automatisch (MC1422074).",
+        "Zur Erinnerung: Restricted SharePoint Search ab 31.07.2026 nicht mehr neu aktivierbar (MC1395311) — Umstieg auf Restricted Content Discovery rechtzeitig einplanen."
+      ],
+      "meldungen": [
+        {
+          "titel": "Copilot Notebooks: Outlook-E-Mails als neue Referenzquelle — GA-Rollout ohne Admin-Abschaltoption",
+          "kategorie": "Copilot",
+          "relevanz": 3,
+          "was": "Microsoft rollt seit Anfang Juli 2026 (GA weltweit bis Ende Juli) eine Funktion aus, mit der Nutzer Outlook-E-Mails als zusätzliche Grounding-Quelle in Copilot Notebooks referenzieren können (bis zu 300 Quellen/Notebook). Die Funktion ist standardmäßig aktiviert; es gibt keine zentrale Admin-Einstellung zur tenant-weiten Deaktivierung. Bestehende Berechtigungen und Purview-Compliance-Kontrollen für Outlook-Daten gelten unverändert weiter.",
+          "bedeutung": "Anders als bei SharePoint Search oder OpenAI-Subprocessor gibt es hier keinen Stichtag mit Admin-Entscheidung, sondern einen stillen Default: E-Mail-Inhalte werden ohne Opt-out zu einer möglichen Grounding-Quelle. Relevant für Nutzerkommunikation und Prüfung, ob dies mit internen Vorgaben zu sensiblen E-Mail-Inhalten vereinbar ist.",
+          "quelle": {"label": "Microsoft 365 Message Center (Archiv)", "url": "https://mc.merill.net/message/MC1392569"},
+          "msid": "MC1392569",
+          "status": "Bestätigt (indirekt — Primärquelle technisch nicht abrufbar, unabhängig übereinstimmend bestätigt)"
+        }
+      ],
+      "radar": [
+        "Digital Omnibus on AI: Amtsblatt-Veröffentlichung weiterhin ausstehend, muss vor 02.08.2026 erfolgen — unverändert seit 14.07.2026.",
+        "Deutsches KI-Durchführungsgesetz (KI-MIG) und BDSG-Reform: Verkündung im Bundesgesetzblatt weiterhin ausstehend seit Bundesrats-Billigung 10.07.2026.",
+        "EDPB High-Level-Event Dublin (16.–17.07.2026) ohne öffentlich dokumentierte KI-Ergebnisse beendet — Thema vorerst abgeschlossen.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Community Draft vom 06.07.2026, Kommentierung bis 31.08.2026."
+      ]
+    },
     {
       "datum": "2026-07-17",
       "datei": "briefings/2026-07/2026-07-17.md",
