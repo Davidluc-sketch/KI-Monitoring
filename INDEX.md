@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [21.07.2026](briefings/2026-07/2026-07-21.md) | Finaler Code of Practice zur KI-Content-Kennzeichnung: Signatur-Frist 22./27.07. vor Art.-50-Pflichten ab 02.08.2026 | AI Act | 3/5 | Ja (Fristen-Reminder OpenAI-Subprocessor 24.07. + Art.-50-Prüfung) |
 | [20.07.2026](briefings/2026-07/2026-07-20.md) | Copilot Notebooks: Outlook-E-Mails als neue Referenzquelle ohne Admin-Abschaltoption (GA-Rollout) | Copilot | 3/5 | Ja (Frist-Reminder OpenAI-Subprocessor 24.07.) |
 | [17.07.2026](briefings/2026-07/2026-07-17.md) | Keine relevanten Entwicklungen | — | — | Nein |
 | [16.07.2026](briefings/2026-07/2026-07-16.md) | Bundesrat billigt BDSG-Reform: Datenschutzkonferenz (DSK) erhält gesetzliche Grundlage | Datenschutz | 3/5 | Nein |
