@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **22.07.2026:** Reguläre Signaturfrist für die Erstliste des Code of Practice zur Kennzeichnung KI-generierter Inhalte (22.07., 18:00 CEST) verstrichen; erweiterte Frist für die vollständige Signatarliste läuft bis 27.07.2026 weiter. Digital Omnibus on AI laut übereinstimmenden Fachquellen bereits am 08.07.2026 unterzeichnet, Amtsblatt-Veröffentlichung aber weiterhin ausstehend (muss vor 02.08.2026 erfolgen) — keine substanzielle Änderung ggü. 21.07.2026.
 - **21.07.2026:** Finaler Code of Practice zur Kennzeichnung KI-generierter Inhalte veröffentlicht — Signatur-Frist für die vor Anwendungsbeginn publizierte Erstliste 22.07.2026 (erweitert bis 27.07.2026), Konformitätsvermutung für Unterzeichner. Die zugrunde liegenden Art.-50-Transparenzpflichten gelten ab 02.08.2026 unverändert (unberührt vom Digital Omnibus). Zusätzlich: Konsultationsfrist zu den Entwurfsleitlinien zur Hochrisiko-Klassifizierung (Art. 6) von 23.06. auf 23.07.2026 verlängert, finale Fassung Ende 2026 erwartet.
 - **14.07.2026:** EDPB verabschiedet Guidelines-Entwürfe zu Anonymisierung und zu Web-Scraping für generative KI (Konsultation bis 30.10.2026). Digital Omnibus on AI (verschiebt Hochrisiko-Pflichten auf 02.12.2027/02.08.2028) ist final gebilligt, Veröffentlichung im EU-Amtsblatt aber weiterhin ausstehend — muss vor 02.08.2026 erfolgen. Transparenzpflichten nach Art. 50 bleiben unverändert ab 02.08.2026.
 
