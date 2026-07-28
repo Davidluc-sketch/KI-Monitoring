@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **28.07.2026:** EU-Kommission hat am 20.07.2026 finale Leitlinien zu den Transparenzpflichten nach Art. 50 (gelten ab 02.08.2026, unverändert vom Digital Omnibus) veröffentlicht — konkretisiert u.a. Deployer-Offenlegungspflichten bei Deepfakes und öffentlichkeitsrelevanten KI-Texten. Erweiterte Signatarfrist des Code of Practice zur Content-Kennzeichnung lief 27.07. ab; finale vollständige Signatarliste noch nicht auffindbar.
 - **27.07.2026:** Digital Omnibus on AI (Verordnung (EU) 2026/1744) am 24.07.2026 im EU-Amtsblatt veröffentlicht und heute in Kraft getreten — die zuvor nur erwartete Fristverschiebung (Hochrisiko-Pflichten auf 02.12.2027/02.08.2028) ist damit rechtsverbindlich. Art.-50-Transparenzpflichten bleiben davon unberührt und gelten unverändert ab 02.08.2026. Erweiterte Signatarfrist für die vollständige Liste des Code of Practice zur KI-Content-Kennzeichnung lief heute, 18:00 CEST, ab; Ergebnis noch offen.
 - **24.07.2026:** Status materiell unverändert: Digital Omnibus on AI weiterhin nicht im Amtsblatt veröffentlicht (Frist vor 02.08.2026). Konsultation zu den Entwurfsleitlinien zur Hochrisiko-Klassifizierung (Art. 6) turnusgemäß am 23.07.2026 beendet; finale Fassung weiterhin bis Ende 2026 erwartet.
 - **23.07.2026:** Status materiell unverändert: Digital Omnibus on AI weiterhin nicht im Amtsblatt veröffentlicht (Signatur laut Fachquellen 08.07.2026, Frist vor 02.08.2026). Erweiterte Signatarfrist für die vollständige Liste zum Code of Practice zur KI-Content-Kennzeichnung läuft noch bis 27.07.2026.
@@ -28,6 +29,7 @@
 - **20.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **24.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **27.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
+- **28.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
 - **20.07.2026:** BSI hat am 06.07.2026 einen Community Draft des "Prüfkatalog vertrauenswürdige KI-Systeme" (A5) veröffentlicht — eine modulare Audit-Architektur für KI-Systeme entlang der Wertschöpfungskette. Kommentierung bis 31.08.2026 möglich, noch kein finales Dokument; potenziell relevant als Ergänzung/Vorstufe zu ISO/IEC-42001-Audits.
