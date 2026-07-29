@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **29.07.2026:** Status materiell unverändert: Finale vollständige Signatarliste zum Code of Practice (Art. 50) weiterhin nicht auffindbar publiziert, obwohl erweiterte Frist 27.07. ablief. Art.-50-Pflichten gelten in 4 Tagen (02.08.2026); Bundesnetzagentur soll laut Sekundärquellen ab 02.08. KI-Marktüberwachung übernehmen, primärquellenseitig nicht bestätigt.
 - **28.07.2026:** EU-Kommission hat am 20.07.2026 finale Leitlinien zu den Transparenzpflichten nach Art. 50 (gelten ab 02.08.2026, unverändert vom Digital Omnibus) veröffentlicht — konkretisiert u.a. Deployer-Offenlegungspflichten bei Deepfakes und öffentlichkeitsrelevanten KI-Texten. Erweiterte Signatarfrist des Code of Practice zur Content-Kennzeichnung lief 27.07. ab; finale vollständige Signatarliste noch nicht auffindbar.
 - **27.07.2026:** Digital Omnibus on AI (Verordnung (EU) 2026/1744) am 24.07.2026 im EU-Amtsblatt veröffentlicht und heute in Kraft getreten — die zuvor nur erwartete Fristverschiebung (Hochrisiko-Pflichten auf 02.12.2027/02.08.2028) ist damit rechtsverbindlich. Art.-50-Transparenzpflichten bleiben davon unberührt und gelten unverändert ab 02.08.2026. Erweiterte Signatarfrist für die vollständige Liste des Code of Practice zur KI-Content-Kennzeichnung lief heute, 18:00 CEST, ab; Ergebnis noch offen.
 - **24.07.2026:** Status materiell unverändert: Digital Omnibus on AI weiterhin nicht im Amtsblatt veröffentlicht (Frist vor 02.08.2026). Konsultation zu den Entwurfsleitlinien zur Hochrisiko-Klassifizierung (Art. 6) turnusgemäß am 23.07.2026 beendet; finale Fassung weiterhin bis Ende 2026 erwartet.
@@ -12,6 +13,7 @@
 - **14.07.2026:** EDPB verabschiedet Guidelines-Entwürfe zu Anonymisierung und zu Web-Scraping für generative KI (Konsultation bis 30.10.2026). Digital Omnibus on AI (verschiebt Hochrisiko-Pflichten auf 02.12.2027/02.08.2028) ist final gebilligt, Veröffentlichung im EU-Amtsblatt aber weiterhin ausstehend — muss vor 02.08.2026 erfolgen. Transparenzpflichten nach Art. 50 bleiben unverändert ab 02.08.2026.
 
 ## M365 Copilot — Roadmap & Governance-Features
+- **29.07.2026:** Restricted SharePoint Search (MC1395311) lässt sich ab 31.07.2026 (in 2 Tagen) nicht mehr neu aktivieren. Purview Data Lifecycle Management Insights für Copilot/AI-Apps (Roadmap-ID 561209): Public Preview laut Sekundärquellen Ende Juli 2026 gestartet, GA Mitte August 2026 avisiert — primärquellenseitig nicht verifizierbar, im nächsten Briefing erneut prüfen.
 - **24.07.2026:** OpenAI-Subprocessor-Einstellung (MC1422074) wird laut Microsoft-Zeitplan heute automatisch aktiviert, sofern kein Admin-Opt-out erfolgt ist — Frist damit abgeschlossen, tatsächlicher Tenant-Status von hier aus nicht einsehbar (kein Zugriff auf interne Systeme). Thema entfällt ab dem nächsten Briefing aus dem Handlungsbedarf.
 - **23.07.2026:** OpenAI-Subprocessor-Einstellung (MC1422074) wird morgen, 24.07.2026, automatisch aktiviert, sofern kein Admin-Opt-out erfolgt ist — letzter Tag zur Gegensteuerung. Zusätzlich laut Fachquellen (Stand 09.07.2026, außerhalb 7-Tage-Fenster): Anthropics Claude im Modell-Picker von Copilot Chat wählbar, für EU/EFTA/UK-Tenants weiterhin standardmäßig deaktiviert.
 - **20.07.2026:** Copilot Notebooks erhalten per GA-Rollout (Anfang bis Ende Juli 2026) die Möglichkeit, Outlook-E-Mails als Grounding-Quelle zu referenzieren (MC1392569, Roadmap-ID 564910). Standardmäßig aktiviert, keine zentrale Admin-Abschaltoption; bestehende Berechtigungen und Purview-Kontrollen für Outlook-Daten gelten unverändert.
@@ -19,6 +21,7 @@
 - **14.07.2026:** Restricted SharePoint Search wird abgekündigt (MC1395311): ab 31.07.2026 keine Neuaktivierung mehr, vollständige Abschaltung 31.01.2027. Betroffene Tenants müssen auf Restricted Content Discovery umstellen, da bisher zurückgehaltene Inhalte sonst in Copilot/Suche auftauchen können.
 
 ## Deutsches KI-Durchführungsgesetz / Aufsichtsstruktur
+- **29.07.2026:** Weiterhin keine Primärquellenbestätigung der Verkündung im Bundesgesetzblatt seit Bundesrats-Billigung am 10.07.2026. Kein neuer Stand.
 - **14.07.2026:** Bundesrat billigt am 10.07.2026 das KI-Durchführungsgesetz; Bundesnetzagentur wird zentrale KI-Marktüberwachungsbehörde mit Koordinierungsstelle und mind. einem KI-Reallabor. Gesetz noch nicht im Bundesgesetzblatt verkündet, tritt am Tag nach Verkündung in Kraft.
 
 ## BDSG-Reform — Gesetzliche Verankerung der Datenschutzkonferenz (DSK)
@@ -30,6 +33,7 @@
 - **24.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **27.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **28.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
+- **29.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
 - **20.07.2026:** BSI hat am 06.07.2026 einen Community Draft des "Prüfkatalog vertrauenswürdige KI-Systeme" (A5) veröffentlicht — eine modulare Audit-Architektur für KI-Systeme entlang der Wertschöpfungskette. Kommentierung bis 31.08.2026 möglich, noch kein finales Dokument; potenziell relevant als Ergänzung/Vorstufe zu ISO/IEC-42001-Audits.
