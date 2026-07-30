@@ -21,6 +21,7 @@
 - **14.07.2026:** Restricted SharePoint Search wird abgekündigt (MC1395311): ab 31.07.2026 keine Neuaktivierung mehr, vollständige Abschaltung 31.01.2027. Betroffene Tenants müssen auf Restricted Content Discovery umstellen, da bisher zurückgehaltene Inhalte sonst in Copilot/Suche auftauchen können.
 
 ## Deutsches KI-Durchführungsgesetz / Aufsichtsstruktur
+- **30.07.2026:** Gesetz (KI-MIG) am 28.07.2026 als BGBl. I 2026 Nr. 223 verkündet und am 29.07.2026 in Kraft getreten — Bundesnetzagentur ist ab sofort formal zentrale KI-Marktüberwachungsbehörde mit KoKIVO-Kompetenzzentrum. Damit vor Beginn der materiellen Marktüberwachungsbefugnisse für Anhang-III-Hochrisikosysteme am 02.08.2026 geklärt; Thema entfällt ab dem nächsten Briefing aus dem Handlungsbedarf.
 - **29.07.2026:** Weiterhin keine Primärquellenbestätigung der Verkündung im Bundesgesetzblatt seit Bundesrats-Billigung am 10.07.2026. Kein neuer Stand.
 - **14.07.2026:** Bundesrat billigt am 10.07.2026 das KI-Durchführungsgesetz; Bundesnetzagentur wird zentrale KI-Marktüberwachungsbehörde mit Koordinierungsstelle und mind. einem KI-Reallabor. Gesetz noch nicht im Bundesgesetzblatt verkündet, tritt am Tag nach Verkündung in Kraft.
 
