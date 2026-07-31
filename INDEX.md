@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [31.07.2026](briefings/2026-07/2026-07-31.md) | Restricted SharePoint Search: Neuaktivierungssperre seit heute wirksam (MC1395311) | Copilot, AI Act | 4/5 | Ja (letzte Frist Art.-50/Anhang-III-Marktüberwachung 02.08.) |
 | [30.07.2026](briefings/2026-07/2026-07-30.md) | KI-Durchführungsgesetz (KI-MIG) im Bundesgesetzblatt verkündet und in Kraft getreten — Bundesnetzagentur ist jetzt formal KI-Marktüberwachungsbehörde | AI Act | 5/5 | Ja (letzte Gelegenheit: SharePoint Search 31.07. + Art.-50-Prüfung 02.08.) |
 | [29.07.2026](briefings/2026-07/2026-07-29.md) | Keine relevanten neuen Entwicklungen — Restricted SharePoint Search (31.07.) und Art. 50 (02.08.) rücken näher | — | — | Ja (Fristen-Reminder SharePoint Search 31.07. + Art.-50-Prüfung) |
 | [28.07.2026](briefings/2026-07/2026-07-28.md) | EU-Kommission veröffentlicht finale Leitlinien zu den Transparenzpflichten nach Art. 50 AI Act | AI Act | 4/5 | Ja (Art.-50-Prüfung anhand neuer Leitlinien abschließen) |
