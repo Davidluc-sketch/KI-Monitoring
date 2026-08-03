@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **03.08.2026:** Art.-50-Transparenzpflichten sowie die materiellen Marktüberwachungsbefugnisse der Bundesnetzagentur für Anhang-III-Hochrisikosysteme sind seit 02.08.2026 wie angekündigt in Kraft, ohne weitere Verschiebung. Finale Signatarliste zum Code of Practice (Art. 50) Ende Juli veröffentlicht: rund 190 Unterzeichner, darunter Meta (unterzeichnete am 28.07., zuvor als Verweigerer geführt — Korrektur ggü. 30.07.-Eintrag) sowie Microsoft, OpenAI, Anthropic, Google, Mistral. Thema wird ab jetzt nur noch bei materiellen Neuentwicklungen weitergeführt.
 - **31.07.2026:** Status materiell unverändert: Finale vollständige Signatarliste zum Code of Practice (Art. 50) weiterhin nicht auffindbar publiziert. Art.-50-Transparenzpflichten sowie die materiellen Marktüberwachungsbefugnisse der Bundesnetzagentur für Anhang-III-Hochrisikosysteme gelten in 2 Tagen (02.08.2026). CEN/CENELEC-Anhörungsphase zu prEN 18228/18282 endete 30.07.2026, Veröffentlichung der Normen weiterhin für Q4 2026 avisiert.
 - **29.07.2026:** Status materiell unverändert: Finale vollständige Signatarliste zum Code of Practice (Art. 50) weiterhin nicht auffindbar publiziert, obwohl erweiterte Frist 27.07. ablief. Art.-50-Pflichten gelten in 4 Tagen (02.08.2026); Bundesnetzagentur soll laut Sekundärquellen ab 02.08. KI-Marktüberwachung übernehmen, primärquellenseitig nicht bestätigt.
 - **28.07.2026:** EU-Kommission hat am 20.07.2026 finale Leitlinien zu den Transparenzpflichten nach Art. 50 (gelten ab 02.08.2026, unverändert vom Digital Omnibus) veröffentlicht — konkretisiert u.a. Deployer-Offenlegungspflichten bei Deepfakes und öffentlichkeitsrelevanten KI-Texten. Erweiterte Signatarfrist des Code of Practice zur Content-Kennzeichnung lief 27.07. ab; finale vollständige Signatarliste noch nicht auffindbar.
@@ -23,6 +24,7 @@
 - **14.07.2026:** Restricted SharePoint Search wird abgekündigt (MC1395311): ab 31.07.2026 keine Neuaktivierung mehr, vollständige Abschaltung 31.01.2027. Betroffene Tenants müssen auf Restricted Content Discovery umstellen, da bisher zurückgehaltene Inhalte sonst in Copilot/Suche auftauchen können.
 
 ## Deutsches KI-Durchführungsgesetz / Aufsichtsstruktur
+- **03.08.2026:** Bundesnetzagentur hat mit Pressemitteilung vom 31.07.2026 offiziell die Übernahme der zentralen Marktüberwachungsrolle zum 02.08.2026 bestätigt; benannte Aufsichtsschwerpunkte: Personalwesen, kritische Infrastruktur, Bildung — relevant für DB als Betreiberin kritischer Infrastruktur. Thema entfällt ab jetzt aus dem aktiven Tracking, sofern keine neuen Entwicklungen auftreten.
 - **30.07.2026:** Gesetz (KI-MIG) am 28.07.2026 als BGBl. I 2026 Nr. 223 verkündet und am 29.07.2026 in Kraft getreten — Bundesnetzagentur ist ab sofort formal zentrale KI-Marktüberwachungsbehörde mit KoKIVO-Kompetenzzentrum. Damit vor Beginn der materiellen Marktüberwachungsbefugnisse für Anhang-III-Hochrisikosysteme am 02.08.2026 geklärt; Thema entfällt ab dem nächsten Briefing aus dem Handlungsbedarf.
 - **29.07.2026:** Weiterhin keine Primärquellenbestätigung der Verkündung im Bundesgesetzblatt seit Bundesrats-Billigung am 10.07.2026. Kein neuer Stand.
 - **14.07.2026:** Bundesrat billigt am 10.07.2026 das KI-Durchführungsgesetz; Bundesnetzagentur wird zentrale KI-Marktüberwachungsbehörde mit Koordinierungsstelle und mind. einem KI-Reallabor. Gesetz noch nicht im Bundesgesetzblatt verkündet, tritt am Tag nach Verkündung in Kraft.
@@ -38,6 +40,7 @@
 - **28.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **29.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **31.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
+- **03.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
 - **20.07.2026:** BSI hat am 06.07.2026 einen Community Draft des "Prüfkatalog vertrauenswürdige KI-Systeme" (A5) veröffentlicht — eine modulare Audit-Architektur für KI-Systeme entlang der Wertschöpfungskette. Kommentierung bis 31.08.2026 möglich, noch kein finales Dokument; potenziell relevant als Ergänzung/Vorstufe zu ISO/IEC-42001-Audits.

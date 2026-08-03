@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [03.08.2026](briefings/2026-08/2026-08-03.md) | Bundesnetzagentur bestätigt Übernahme der KI-Marktüberwachung — Art.-50-Pflichten seit 02.08. in Kraft | AI Act | 4/5 | Nein |
 | [31.07.2026](briefings/2026-07/2026-07-31.md) | Restricted SharePoint Search: Neuaktivierungssperre seit heute wirksam (MC1395311) | Copilot, AI Act | 4/5 | Ja (letzte Frist Art.-50/Anhang-III-Marktüberwachung 02.08.) |
 | [30.07.2026](briefings/2026-07/2026-07-30.md) | KI-Durchführungsgesetz (KI-MIG) im Bundesgesetzblatt verkündet und in Kraft getreten — Bundesnetzagentur ist jetzt formal KI-Marktüberwachungsbehörde | AI Act | 5/5 | Ja (letzte Gelegenheit: SharePoint Search 31.07. + Art.-50-Prüfung 02.08.) |
 | [29.07.2026](briefings/2026-07/2026-07-29.md) | Keine relevanten neuen Entwicklungen — Restricted SharePoint Search (31.07.) und Art. 50 (02.08.) rücken näher | — | — | Ja (Fristen-Reminder SharePoint Search 31.07. + Art.-50-Prüfung) |
