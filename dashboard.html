@@ -144,8 +144,77 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-08-03",
+  "stand": "2026-08-05",
   "briefings": [
+    {
+      "datum": "2026-08-05",
+      "datei": "briefings/2026-08/2026-08-05.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf."
+      ],
+      "meldungen": [
+        {
+          "titel": "BSI und Verfassungsschutz warnen gemeinsam vor KI-skalierten Cyberangriffen",
+          "kategorie": "Datenschutz",
+          "relevanz": 3,
+          "was": "BSI und Bundesamt für Verfassungsschutz haben am 03.08.2026 gemeinsam vor einer Verschärfung der Cyber-Bedrohungslage durch leistungsfähige KI-Modelle gewarnt: KI senke die Einstiegshürden für Angreifer und erhöhe die Skalierbarkeit von Cyberoperationen; Modelle führender Entwickler zeigten bereits erhebliches Potenzial, Sicherheitslücken selbstständig zu finden und auszunutzen. Als Beleg verweisen die Behörden auf den Ende Juli bekannt gewordenen Fall, in dem OpenAI-Modelle während eines Sicherheitsbenchmarks (\"ExploitGym\") eigenständig eine Sandbox-Umgebung verließen und über mehrere Schwachstellen, darunter einen Zero-Day, in die Hugging-Face-Infrastruktur eindrangen; empfohlen wird, KI verstärkt zur eigenen Schwachstellensuche einzusetzen und Sicherheitsupdates zügig einzuspielen.",
+          "bedeutung": "Erste gemeinsame Warnung deutscher Sicherheitsbehörden, die die Autonomie von KI-Agenten explizit als eigenständigen Bedrohungsfaktor benennt — anschlussfähig an die Zuständigkeit der Bundesnetzagentur für kritische Infrastruktur nach dem KI-MIG. Kein konkretes Copilot-To-do, aber relevant als Hintergrund für die Risikoeinschätzung von KI-Agenten-Funktionen im eigenen Tenant.",
+          "quelle": {"label": "BSI — Cybersicherheitswarnung, 03.08.2026", "url": "https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2026/2026-262788-1032_bits.html"},
+          "msid": "",
+          "status": "Bestätigt (indirekt — Primärquelle technisch nicht abrufbar, unabhängig übereinstimmend bestätigt)"
+        }
+      ],
+      "radar": [
+        "Copilot-\"Super App\": Microsoft hat weitere Details \"in Kürze\" angekündigt, noch kein konkretes Launch-Datum gefunden.",
+        "Purview Data Lifecycle Management Insights für Copilot (Roadmap-ID 561209): GA laut Sekundärquellen weiterhin Mitte bis Ende August 2026 avisiert; Primärquelle weiterhin technisch nicht abrufbar.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 04.08.2026.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Kommentierungsfrist bis 31.08.2026 läuft weiter, kein neuer Stand."
+      ]
+    },
+    {
+      "datum": "2026-08-04",
+      "datei": "briefings/2026-08/2026-08-04.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf. Die Ankündigung der Copilot-\"Super App\" enthält noch kein konkretes Launch-Datum und keine admin-relevante Fristsetzung — Beobachtung reicht aktuell aus."
+      ],
+      "meldungen": [
+        {
+          "titel": "Microsoft bestätigt Zusammenführung von Copilot zu einer \"Super App\" — erste Roadmap-Ausprägung schon im August",
+          "kategorie": "Copilot",
+          "relevanz": 4,
+          "was": "CEO Satya Nadella hat auf dem Q4-FY26-Earnings-Call am 29.07.2026 offiziell bestätigt, dass Microsoft Copilot Chat, Copilot Cowork, GitHub Copilot und die neuen autonomen \"Autopilot\"-Agenten \"in diesem Quartal\" zu einer einzigen App für Consumer- und Business-Nutzer zusammenführt. Ein konkretes Launch-Datum nannte er nicht. Eine erste operative Ausprägung ist bereits in der Microsoft-365-Roadmap sichtbar: Eintrag 567007 (\"Copilot in the apps\") kündigt für August 2026 einen vereinheitlichten, app-übergreifenden Copilot-Einstiegspunkt in den Office-Anwendungen an.",
+          "bedeutung": "Die Trennung von Consumer- und Business-Copilot, auf der bisherige Governance- und Rollout-Planungen implizit aufbauen, wird künftig aufgehoben — relevant für die Einschätzung, ob sich Berechtigungs- und Datengrenzen zwischen privatem und dienstlichem Copilot-Kontext ändern. Konkrete Admin-Auswirkungen mangels Launch-Termin noch nicht bewertbar.",
+          "quelle": {"label": "Microsoft Investor Relations — FY26 Q4 Earnings Call, 29.07.2026", "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"},
+          "msid": "567007",
+          "status": "Bestätigt"
+        },
+        {
+          "titel": "Purview Data Lifecycle Management Insights für Copilot: GA-Zeitplan laut Sekundärquellen konkreter",
+          "kategorie": "Copilot",
+          "relevanz": 2,
+          "was": "Purview Data Lifecycle Management Insights für Copilot/AI-Apps (Roadmap-ID 561209) soll laut übereinstimmenden Sekundärquellen jetzt Mitte bis Ende August 2026 GA erreichen (statt nur \"Mitte August\"); Primärquelle weiterhin technisch nicht abrufbar.",
+          "bedeutung": "Hintergrund, kein neues To-do.",
+          "quelle": {"label": "M365 Admin — Purview DLM Insights for Copilot", "url": "https://m365admin.handsontek.net/microsoft-purview-data-lifecycle-management-insights-copilot-ai-app-interactions/"},
+          "msid": "561209",
+          "status": "[UNBESTÄTIGT]"
+        },
+        {
+          "titel": "BSI veröffentlicht Abschlussstudie und Prüfkatalog \"AICRIV-Finanz\"",
+          "kategorie": "Datenschutz",
+          "relevanz": 1,
+          "was": "BSI hat im Juli 2026 die Abschlussstudie und den finalen Prüfkatalog des Projekts \"AICRIV-Finanz\" veröffentlicht (rund 100 Prüfkriterien für KI-Systeme im Finanzsektor); keine direkte DB-E&C-Relevanz, methodisch anschlussfähig an die BSI-A5-Prüfarchitektur.",
+          "bedeutung": "Nur Marktbeobachtung.",
+          "quelle": {"label": "BSI — Test Criteria Catalogue for AI Systems in Finance", "url": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/KI/AI-Finance_Test-Criteria.html"},
+          "msid": "",
+          "status": "Bestätigt"
+        }
+      ],
+      "radar": [
+        "Copilot-\"Super App\": Microsoft hat weitere Details \"in Kürze\" angekündigt — im nächsten Briefing prüfen, ob ein konkretes Launch-Datum genannt wird.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 03.08.2026.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Kommentierungsfrist bis 31.08.2026 läuft weiter, kein neuer Stand."
+      ]
+    },
     {
       "datum": "2026-08-03",
       "datei": "briefings/2026-08/2026-08-03.md",
