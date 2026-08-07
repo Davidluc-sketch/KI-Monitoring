@@ -46,6 +46,7 @@
 - **04.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **05.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **06.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
+- **07.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
 - **20.07.2026:** BSI hat am 06.07.2026 einen Community Draft des "Prüfkatalog vertrauenswürdige KI-Systeme" (A5) veröffentlicht — eine modulare Audit-Architektur für KI-Systeme entlang der Wertschöpfungskette. Kommentierung bis 31.08.2026 möglich, noch kein finales Dokument; potenziell relevant als Ergänzung/Vorstufe zu ISO/IEC-42001-Audits.
