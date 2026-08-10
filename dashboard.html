@@ -144,8 +144,75 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-08-05",
+  "stand": "2026-08-10",
   "briefings": [
+    {
+      "datum": "2026-08-10",
+      "datei": "briefings/2026-08/2026-08-10.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf. Empfehlung ohne Frist: Bis zum Rollout-Start am 15.08.2026 prüfen, ob bestehende Optional-Connected-Experiences-Richtlinien zu Scheduled Prompts nach der Umstellung auf Microsoft 365 Connected Experiences Governance weiterhin wie gewünscht greifen."
+      ],
+      "meldungen": [
+        {
+          "titel": "Microsoft 365 Copilot: Scheduled Prompts wechseln zur Microsoft 365 Connected Experiences Governance",
+          "kategorie": "Copilot",
+          "relevanz": 3,
+          "was": "Microsoft hat am 05.08.2026 per Message-Center-Eintrag MC1447683 angekündigt, dass die Governance für \"Scheduled Prompts\" vom bisherigen \"Optional Connected Experiences\"-Rahmen in den allgemeinen \"Microsoft 365 Connected Experiences\"-Rahmen wechselt. Rollout-Start ist der 15.08.2026, Abschluss laut Ankündigung bis Ende August 2026; die Funktionsweise für Nutzer ändert sich dabei nicht, bestehende geplante Prompts laufen unverändert weiter.",
+          "bedeutung": "Organisationen, die Scheduled Prompts bisher gezielt über Optional-Connected-Experiences-Richtlinien eingeschränkt haben, sollten vor dem 15.08. prüfen, ob diese Steuerung nach dem Wechsel weiterhin wie vorgesehen wirkt — laut Microsoft ist für die meisten Organisationen kein sofortiges Handeln nötig, Richtlinienverantwortliche sollten die Einstellung aber verifizieren.",
+          "quelle": {"label": "mwpro.co.uk / M365 Admin — MC1447683", "url": "https://mwpro.co.uk/blog/2026/08/05/mc1447683-microsoft-365-copilot-scheduled-prompts-moves-to-microsoft-365-connected-experiences-governance/"},
+          "msid": "MC1447683",
+          "status": "Bestätigt (indirekt — Primärquelle technisch nicht abrufbar, unabhängig übereinstimmend bestätigt)"
+        }
+      ],
+      "radar": [
+        "Copilot-\"Super App\": Weiterhin keine neuen Details oder Launch-Datum seit der Nadella-Ankündigung vom 29.07.2026 gefunden.",
+        "Purview Data Lifecycle Management Insights für Copilot (Roadmap-ID 561209): GA-Auslieferung läuft laut Sekundärquellen ab Mitte August 2026 an, Abschluss Ende August 2026 avisiert; Primärquelle weiterhin technisch nicht abrufbar.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 07.08.2026.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Kommentierungsfrist bis 31.08.2026 läuft weiter, kein neuer Stand.",
+        "CEN/CENELEC JTC 21: öffentliche Anhörung zu prEN 18229-1 (\"AI Trustworthiness Framework — Logging\") läuft bis 20.08.2026."
+      ]
+    },
+    {
+      "datum": "2026-08-07",
+      "datei": "briefings/2026-08/2026-08-07.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf."
+      ],
+      "meldungen": [],
+      "radar": [
+        "Copilot-\"Super App\": Weiterhin keine neuen Details oder Launch-Datum seit der Nadella-Ankündigung vom 29.07.2026 gefunden.",
+        "Purview Data Lifecycle Management Insights für Copilot (Roadmap-ID 561209): GA laut Sekundärquellen weiterhin für Mitte bis Ende August 2026 avisiert; Primärquelle weiterhin technisch nicht abrufbar.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 06.08.2026.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Kommentierungsfrist bis 31.08.2026 läuft weiter, kein neuer Stand.",
+        "Diskussion um autonome KI-Agenten und IT-Sicherheit: OpenSSL-Mitentwickler Tim Hudson kritisierte öffentlich ein \"wiederkehrendes Muster\" bei KI-Sicherheitstests mit realen Zielsystemen — Einzelmeinung, als Indikator für öffentlichen Druck im Auge zu behalten."
+      ]
+    },
+    {
+      "datum": "2026-08-06",
+      "datei": "briefings/2026-08/2026-08-06.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf."
+      ],
+      "meldungen": [
+        {
+          "titel": "Copilot Studio: GitHub-Copilot-Harness für Agenten und Workflows allgemein verfügbar — erstmals rein nutzungsbasierte Abrechnung neben Lizenzmodell",
+          "kategorie": "Copilot",
+          "relevanz": 3,
+          "was": "Microsoft hat am 03.08.2026 die allgemeine Verfügbarkeit (GA) eines dritten \"Harness\" für Copilot Studio bekanntgegeben (MC1446644): Neben \"Copilot Chat\" und \"Standard\" steht mit dem \"GitHub Copilot\"-Harness eine für komplexe, mehrstufige und autonome Geschäftsprozesse ausgelegte Agenten-Laufzeitumgebung zur Verfügung. Abweichend von der bisherigen sitzplatzbasierten Copilot-Lizenzierung wird dieser Harness ausschließlich nutzungsbasiert über \"Copilot Credits\" abgerechnet — bereits ab dem Bau/Testen von Agenten.",
+          "bedeutung": "Sobald Fachbereiche eigene komplexere Agenten/Workflows mit diesem Harness bauen wollen, sollte vorab ein Budget-Controlling für Copilot Credits geprüft werden, da Kosten unabhängig von vorhandenen M365-Copilot-Lizenzen anfallen. Kein akuter Handlungsbedarf, da die Nutzung optional ist.",
+          "quelle": {"label": "Microsoft Copilot Studio Blog / mwpro.co.uk — MC1446644", "url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business-processes-introducing/4542969"},
+          "msid": "MC1446644",
+          "status": "Bestätigt (indirekt — Primärquelle technisch nicht abrufbar, unabhängig übereinstimmend bestätigt)"
+        }
+      ],
+      "radar": [
+        "Agent Activity Monitoring für Manager (Viva/Agent 365, VFAM-Steuerung): laut Sekundärquellen ab Ende August 2026 Rollout geplant; Primärquelle noch nicht auffindbar.",
+        "Copilot-\"Super App\": weiterhin keine neuen Details oder Launch-Datum seit 29.07.2026 gefunden.",
+        "Purview Data Lifecycle Management Insights für Copilot (Roadmap-ID 561209): GA laut Sekundärquellen weiterhin Mitte bis Ende August 2026 avisiert.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 05.08.2026.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Kommentierungsfrist bis 31.08.2026 läuft weiter."
+      ]
+    },
     {
       "datum": "2026-08-05",
       "datei": "briefings/2026-08/2026-08-05.md",
