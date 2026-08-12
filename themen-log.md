@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **12.08.2026:** Anthropic hat als erster großer Modellanbieter angekündigt (11.08.2026), sämtliche Claude-Ausgaben weltweit rückwirkend zum Geltungsbeginn der Art.-50-Pflichten (02.08.2026) mit unsichtbaren Text-Wasserzeichen und signierten C2PA-Provenienz-Metadaten für Dateien zu versehen — deckt alle Claude-Produkte ab (API, App, Claude Code, Cowork, Claude Tag, auch via AWS/Google Cloud/Microsoft Foundry). Setzt den zuvor unterzeichneten Code of Practice zur Content-Kennzeichnung technisch um und dürfte als Referenzpunkt für andere Modellanbieter (Microsoft/OpenAI, Google) dienen.
 - **03.08.2026:** Art.-50-Transparenzpflichten sowie die materiellen Marktüberwachungsbefugnisse der Bundesnetzagentur für Anhang-III-Hochrisikosysteme sind seit 02.08.2026 wie angekündigt in Kraft, ohne weitere Verschiebung. Finale Signatarliste zum Code of Practice (Art. 50) Ende Juli veröffentlicht: rund 190 Unterzeichner, darunter Meta (unterzeichnete am 28.07., zuvor als Verweigerer geführt — Korrektur ggü. 30.07.-Eintrag) sowie Microsoft, OpenAI, Anthropic, Google, Mistral. Thema wird ab jetzt nur noch bei materiellen Neuentwicklungen weitergeführt.
 - **31.07.2026:** Status materiell unverändert: Finale vollständige Signatarliste zum Code of Practice (Art. 50) weiterhin nicht auffindbar publiziert. Art.-50-Transparenzpflichten sowie die materiellen Marktüberwachungsbefugnisse der Bundesnetzagentur für Anhang-III-Hochrisikosysteme gelten in 2 Tagen (02.08.2026). CEN/CENELEC-Anhörungsphase zu prEN 18228/18282 endete 30.07.2026, Veröffentlichung der Normen weiterhin für Q4 2026 avisiert.
 - **29.07.2026:** Status materiell unverändert: Finale vollständige Signatarliste zum Code of Practice (Art. 50) weiterhin nicht auffindbar publiziert, obwohl erweiterte Frist 27.07. ablief. Art.-50-Pflichten gelten in 4 Tagen (02.08.2026); Bundesnetzagentur soll laut Sekundärquellen ab 02.08. KI-Marktüberwachung übernehmen, primärquellenseitig nicht bestätigt.
@@ -37,6 +38,7 @@
 - **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
 
 ## EU-US Data Privacy Framework / "Schrems III"
+- **12.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **11.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **16.07.2026 (Radar):** Nach dem US-Supreme-Court-Urteil zur FTC-Unabhängigkeit (29.06.2026) kündigte noyb/Schrems eine EuGH-Klage gegen den Angemessenheitsbeschluss an ("in den kommenden Wochen"). Noch keine Klage eingereicht, Beschluss gilt unverändert fort — potenziell relevant für die Verarbeiterkette hinter Copilot (Azure/OpenAI/Anthropic).
 - **20.07.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
