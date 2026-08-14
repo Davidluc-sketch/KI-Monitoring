@@ -2,6 +2,10 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [14.08.2026](briefings/2026-08/2026-08-14.md) | Microsoft startet Rollout der vereinheitlichten Copilot-App ("Super App"), Rebranding zu "Microsoft Copilot" | Copilot | 4/5 | Ja (letzte Gelegenheit Scheduled-Prompts-Richtlinien vor Rollout-Start 15.08. zu prüfen) |
+| [13.08.2026](briefings/2026-08/2026-08-13.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
+| [12.08.2026](briefings/2026-08/2026-08-12.md) | Anthropic versieht alle Claude-Ausgaben weltweit mit Wasserzeichen (EU-AI-Act-Konformität) | Modelle | 4/5 | Nein |
+| [11.08.2026](briefings/2026-08/2026-08-11.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [10.08.2026](briefings/2026-08/2026-08-10.md) | Copilot Scheduled Prompts wechseln zur Microsoft 365 Connected Experiences Governance (MC1447683, Rollout ab 15.08.) | Copilot | 3/5 | Nein (Empfehlung: Richtlinien bis 15.08. prüfen) |
 | [07.08.2026](briefings/2026-08/2026-08-07.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [06.08.2026](briefings/2026-08/2026-08-06.md) | Copilot Studio: GitHub-Copilot-Harness allgemein verfügbar — erstmals rein nutzungsbasierte Abrechnung neben Lizenzmodell | Copilot | 3/5 | Nein |

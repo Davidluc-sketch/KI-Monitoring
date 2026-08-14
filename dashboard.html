@@ -144,8 +144,88 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-08-10",
+  "stand": "2026-08-14",
   "briefings": [
+    {
+      "datum": "2026-08-14",
+      "datei": "briefings/2026-08/2026-08-14.md",
+      "handlungsbedarf": [
+        "Letzte Gelegenheit vor morgigem Rollout-Start (15.08.2026): Governance für Scheduled Prompts wechselt morgen zur Microsoft 365 Connected Experiences Governance (MC1447683) — bestehende Richtlinien heute ein letztes Mal prüfen, falls noch nicht erfolgt."
+      ],
+      "meldungen": [
+        {
+          "titel": "Update zu 04.08.2026 — Microsoft startet Rollout der vereinheitlichten Copilot-App (\"Super App\")",
+          "kategorie": "Copilot",
+          "relevanz": 4,
+          "was": "Microsoft hat am 13.08.2026 den Rollout der zuvor von CEO Nadella angekündigten Zusammenführung von Consumer-Copilot und Microsoft 365 Copilot in eine einzige App begonnen. Weltweiter Rollout für Mobile/Web ab Mitte August 2026, Windows/Mac mit Early-Access-Opt-in ab jetzt und vollem Rollout Mitte September 2026; die Microsoft-365-Copilot-App wird als \"Microsoft Copilot\" mit neuem Icon und neuer Web-Adresse (copilot.cloud.microsoft) rebranded. Mehrere Consumer-Funktionen (Podcasts, Group Chat, Deep Research für Privatnutzer) werden zum 18.08.2026 eingestellt.",
+          "bedeutung": "Microsoft beschreibt die Änderungen für kommerzielle/lizenzierte Nutzer als weitgehend kosmetisch (Governance-, Sicherheits- und Compliance-Kontrollen unverändert laut Ankündigung). Fachanalysen weisen aber auf neue offene Fragen zu Agenten-Governance, Identität und Lizenzierung hin, sobald weitere Rollout-Phasen greifen — im Auge behalten, konkrete Admin-Hinweise über das Message Center abwarten.",
+          "quelle": {"label": "Microsoft Support — Updates to Copilot and the Microsoft Copilot app", "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app"},
+          "msid": "",
+          "status": "Bestätigt (übereinstimmend über zahlreiche unabhängige Fachmedien; keine Message-Center-ID auffindbar, offizielle Support-Seite als Primärbeleg über Websuche verifiziert, technisch nicht abrufbar)"
+        }
+      ],
+      "radar": [
+        "Purview DLP/Auto-Labeling für Non-Microsoft-Apps (Roadmap-ID 568075): Zeitplan laut Sekundärquellen unverändert (weltweite GA ab Anfang September, Abschluss Ende Oktober 2026); Primärquelle weiterhin technisch nicht abrufbar.",
+        "Defender for Cloud Apps — Retirement von File Policies im Zuge der Purview-Konsolidierung laut Fachquellen (ChangePilot) angekündigt; noch keine Primärquelle mit Datum gefunden.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 13.08.2026.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Kommentierungsfrist bis 31.08.2026 läuft weiter, kein neuer Stand.",
+        "CEN/CENELEC JTC 21: prEN 18228/18229-1 weiterhin in der Enquiry-Phase, Q4 2026 als Zielfenster genannt."
+      ]
+    },
+    {
+      "datum": "2026-08-13",
+      "datei": "briefings/2026-08/2026-08-13.md",
+      "handlungsbedarf": [
+        "Kein neuer akuter Handlungsbedarf. Weiterhin offen (Frist rückt näher): Bis zum Rollout-Start am 15.08.2026 (in 2 Tagen) prüfen, ob bestehende Optional-Connected-Experiences-Richtlinien zu Scheduled Prompts nach der Umstellung weiterhin wie gewünscht greifen."
+      ],
+      "meldungen": [],
+      "radar": [
+        "Reaktionen auf Anthropic-Wasserzeichen-Ankündigung (siehe Briefing 12.08.2026): wachsende öffentliche Kritik laut Fachmedien, kein Compliance-Bezug für DB E&C erkennbar.",
+        "Restricted Content Discovery (RCD) — Erweiterung gegen MRU-Lücke: Microsoft hat laut Fachquellen eine Lücke geschlossen, durch die zuletzt geöffnete Dateien trotz aktivierter RCD noch in Copilot-Ergebnissen auftauchen konnten.",
+        "Purview DLP/Auto-Labeling für Non-Microsoft-Apps (Roadmap-ID 568075): Zeitplan laut Sekundärquellen unverändert, kein neuer Stand.",
+        "Copilot-\"Super App\": weiterhin keine neuen Details oder Launch-Datum seit der Nadella-Ankündigung vom 29.07.2026 gefunden.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 12.08.2026."
+      ]
+    },
+    {
+      "datum": "2026-08-12",
+      "datei": "briefings/2026-08/2026-08-12.md",
+      "handlungsbedarf": [
+        "Kein neuer akuter Handlungsbedarf. Weiterhin offen (Frist rückt näher): Bis zum Rollout-Start am 15.08.2026 (in 3 Tagen) prüfen, ob bestehende Optional-Connected-Experiences-Richtlinien zu Scheduled Prompts nach der Umstellung weiterhin wie gewünscht greifen."
+      ],
+      "meldungen": [
+        {
+          "titel": "Anthropic versieht alle Claude-Ausgaben weltweit mit Wasserzeichen (EU-AI-Act-Konformität)",
+          "kategorie": "Modelle",
+          "relevanz": 4,
+          "was": "Anthropic hat am 11.08.2026 angekündigt, Claude-Texte künftig mit einem unsichtbaren, maschinenlesbaren Wasserzeichen zu versehen und Dateien mit signierten C2PA-Provenienz-Metadaten auszustatten. Die Kennzeichnung gilt rückwirkend ab dem Geltungsbeginn der Art.-50-Transparenzpflichten (02.08.2026), deckt alle Claude-Produkte ab (API, App, Claude Code, Cowork, Claude Tag, auch via AWS/Google Cloud/Microsoft Foundry) und wird weltweit angewendet, nicht nur für EU-Nutzer.",
+          "bedeutung": "Erster großer Modellanbieter, der die Art.-50-Kennzeichnungspflicht technisch konkret umsetzt — ein Referenzpunkt für die Erwartungshaltung an andere Anbieter (Microsoft/OpenAI, Google). Direkt relevant, sobald Claude im Modellwahlschalter von Copilot Chat aktiviert wird (aktuell für EU/EFTA/UK-Tenants standardmäßig deaktiviert).",
+          "quelle": {"label": "Claude Help Center — How Claude marks AI-generated content", "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"},
+          "msid": "",
+          "status": "Bestätigt (übereinstimmend über zahlreiche unabhängige Fachmedien bei technisch nicht abrufbarer anthropic.com-Primärquelle; Anthropics eigenes Help-Center-Dokument als Primärbeleg verfügbar)"
+        }
+      ],
+      "radar": [
+        "Purview DLP/Auto-Labeling für Non-Microsoft-Apps (Roadmap-ID 568075): Sekundärquellen konkretisieren Zeitplan auf weltweite GA ab Anfang September, Abschluss Ende Oktober 2026.",
+        "CEN/CENELEC JTC 21: August 2026 weiterhin Zieltermin für finale Normfassungen laut Fachquellen, aber keine harmonisierte Norm im EU-Amtsblatt referenziert.",
+        "Copilot-\"Super App\": weiterhin keine neuen Details oder Launch-Datum seit der Nadella-Ankündigung vom 29.07.2026 gefunden.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 11.08.2026."
+      ]
+    },
+    {
+      "datum": "2026-08-11",
+      "datei": "briefings/2026-08/2026-08-11.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf. Weiterhin offen (Erinnerung, keine Fristverschärfung): Bis zum Rollout-Start am 15.08.2026 prüfen, ob bestehende Optional-Connected-Experiences-Richtlinien zu Scheduled Prompts nach der Umstellung weiterhin wie gewünscht greifen."
+      ],
+      "meldungen": [],
+      "radar": [
+        "Neu beobachtet — Purview DLP/Auto-Labeling für Non-Microsoft-Apps (Roadmap-ID 568075): Policy-Erstellung ab Mitte August 2026, weltweite GA laut Sekundärquellen September–Oktober 2026; Primärquelle technisch nicht abrufbar.",
+        "Copilot-\"Super App\": weiterhin keine neuen Details oder Launch-Datum seit der Nadella-Ankündigung vom 29.07.2026 gefunden.",
+        "Purview Data Lifecycle Management Insights für Copilot (Roadmap-ID 561209): GA laut Sekundärquellen weiterhin für Mitte bis Ende August 2026 avisiert.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 10.08.2026."
+      ]
+    },
     {
       "datum": "2026-08-10",
       "datei": "briefings/2026-08/2026-08-10.md",
