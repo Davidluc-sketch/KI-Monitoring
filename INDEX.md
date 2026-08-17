@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [17.08.2026](briefings/2026-08/2026-08-17.md) | Update zu 12.08. — Anthropic bestätigt Detection API für Claude-Wasserzeichen, benennt technische Grenzen | Modelle | 3/5 | Nein |
 | [14.08.2026](briefings/2026-08/2026-08-14.md) | Microsoft startet Rollout der vereinheitlichten Copilot-App ("Super App"), Rebranding zu "Microsoft Copilot" | Copilot | 4/5 | Ja (letzte Gelegenheit Scheduled-Prompts-Richtlinien vor Rollout-Start 15.08. zu prüfen) |
 | [13.08.2026](briefings/2026-08/2026-08-13.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [12.08.2026](briefings/2026-08/2026-08-12.md) | Anthropic versieht alle Claude-Ausgaben weltweit mit Wasserzeichen (EU-AI-Act-Konformität) | Modelle | 4/5 | Nein |
