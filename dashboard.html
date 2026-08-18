@@ -144,8 +144,44 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-08-17",
+  "stand": "2026-08-18",
   "briefings": [
+    {
+      "datum": "2026-08-18",
+      "datei": "briefings/2026-08/2026-08-18.md",
+      "handlungsbedarf": [
+        "Kein akuter Handlungsbedarf mit fester Frist. Zwei Vorbereitungshinweise ohne Deadline: (1) Purview DLP/Auto-Labeling für Non-Microsoft-Apps (MC1449180) — vor Erstellung neuer Purview-Richtlinien bestehende Defender-for-Cloud-Apps-Dateirichtlinien für dieselben Standorte deaktivieren. (2) Outlook Meeting Insights (MC1430531) — Non-Copilot-lizenzierte Teams vor Rollout-Abschluss Anfang September informieren."
+      ],
+      "meldungen": [
+        {
+          "titel": "Update zu 11.08.2026 — Purview DLP/Auto-Labeling für Non-Microsoft-Apps jetzt mit Message-Center-ID bestätigt",
+          "kategorie": "Copilot",
+          "relevanz": 4,
+          "was": "Microsoft hat die zuvor nur über Sekundärquellen bekannte Erweiterung von Purview DLP und Information-Protection-Auto-Labeling auf Non-Microsoft-Anwendungen jetzt konkret angekündigt: Message-Center-Eintrag MC1449180 (06.08.2026, Roadmap-ID 568075). Über Microsoft-Defender-for-Cloud-Apps-Connectoren lassen sich künftig Purview-DLP-Richtlinien und Auto-Labeling-Regeln direkt auf Daten in Google Workspace, Box, Dropbox, Salesforce, ServiceNow, AWS und Cisco Webex anwenden. Zeitplan: Preview ab Mitte August 2026, weltweite allgemeine Verfügbarkeit ab Anfang September 2026, vollständiger Rollout bis Ende Oktober 2026.",
+          "bedeutung": "Direkt relevant für die Data-Governance-Planung: Bestehende Defender-for-Cloud-Apps-Dateirichtlinien für dieselben Non-MS-Standorte sollten vor Aktivierung der neuen Purview-Richtlinien deaktiviert oder gelöscht werden, da Microsoft vor gleichzeitigem Betrieb ausdrücklich wegen möglicher widersprüchlicher Policy-Durchsetzung warnt. Damit lässt sich der bisherige Radar-Punkt vom 11.08.2026 von [UNBESTÄTIGT] auf bestätigt mit konkreter MC-ID hochstufen.",
+          "quelle": {"label": "Office 365 for IT Pros (Tony Redmond), 14.08.2026", "url": "https://office365itpros.com/2026/08/14/external-services-dlp/"},
+          "msid": "MC1449180",
+          "status": "Bestätigt (indirekt — Primärquelle technisch nicht abrufbar, unabhängig übereinstimmend bestätigt über mehrere Fachquellen mit übereinstimmender MC-ID und übereinstimmendem Zeitplan)"
+        },
+        {
+          "titel": "Outlook Meeting Insights wird abgeschaltet — Ersatz nur mit Copilot-Lizenz nutzbar",
+          "kategorie": "Copilot",
+          "relevanz": 3,
+          "was": "Microsoft entfernt die Funktion \"Meeting Insights\" (zeigt zu Terminen passende E-Mails und Dateien an) aus Outlook im Web, dem neuen Outlook für Windows, Outlook für Mac, Outlook Mobile und Teams. Laut Message-Center-Eintrag MC1430531 (angekündigt 17.07.2026) läuft der Rollout der Abschaltung seit Mitte August 2026 und soll Anfang September 2026 abgeschlossen sein. Ersatz ist die neue Copilot-Meeting-Preparation-Funktion, die vergleichbare Inhalte zusammenfasst — diese setzt jedoch eine Microsoft-365-Copilot-Lizenz voraus.",
+          "bedeutung": "Mitarbeitende ohne Copilot-Lizenz verlieren eine bislang kostenlose Funktion ersatzlos, nicht nur eingeschränkt. Da der Rollout bereits läuft, empfiehlt sich eine kurze interne Information an Non-Copilot-Nutzer vor Abschluss Anfang September, um Rückfragen zum plötzlichen Wegfall der Funktion vorzubeugen.",
+          "quelle": {"label": "heise online (engl.)", "url": "https://www.heise.de/en/news/Microsoft-cuts-Meeting-Insights-from-Outlook-11371932.html"},
+          "msid": "MC1430531",
+          "status": "Bestätigt (indirekt — Primärquelle technisch nicht abrufbar, unabhängig übereinstimmend bestätigt über mehrere Fachquellen mit übereinstimmender MC-ID)"
+        }
+      ],
+      "radar": [
+        "Copilot-\"Super App\": Der am 13.08.2026 begonnene Rollout läuft laut Fachmedien planmäßig weiter (Mobile/Web diese Woche, Windows/Mac ab Mitte September); keine über den bereits berichteten Stand hinausgehende Neuentwicklung.",
+        "Purview Data Lifecycle Management Insights für Copilot (Roadmap-ID 561209): Zeitplan laut Sekundärquellen unverändert (GA ab Mitte August, Abschluss Ende August 2026), kein neuer Stand.",
+        "BSI-Konsultation \"Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): Kommentierungsfrist endet in knapp 2 Wochen (31.08.2026), kein neuer Stand.",
+        "EU-US Data Privacy Framework / \"Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht, unverändert seit 17.08.2026.",
+        "CEN/CENELEC JTC 21: prEN 18228, 18229-1 und 18282 weiterhin in der Enquiry-Phase, Q4 2026 unverändert als Zielfenster genannt."
+      ]
+    },
     {
       "datum": "2026-08-17",
       "datei": "briefings/2026-08/2026-08-17.md",
