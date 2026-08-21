@@ -46,6 +46,7 @@
 - **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
 
 ## EU-US Data Privacy Framework / "Schrems III"
+- **21.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **17.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **13.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **12.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
