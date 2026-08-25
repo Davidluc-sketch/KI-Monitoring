@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **25.08.2026 (Radar):** Status materiell unverändert seit 17.08.2026, keine neue Entwicklung auffindbar.
 - **24.08.2026 (Radar):** Status materiell unverändert seit 17.08.2026, keine neue Entwicklung im Wochenendfenster (21.–24.08.2026) auffindbar.
 - **17.08.2026 (Update zu 12.08.2026):** Anthropic-Vertreter haben laut übereinstimmenden Fachmedien (TechCrunch, Axios, Forbes) weitere technische Details zum Claude-Wasserzeichen bestätigt: Verfahren angelehnt an Google DeepMinds SynthID-Text, Detection-API für Dritte bestätigt aber ohne Termin/Preismodell, Kennzeichnung übersteht leichte Bearbeitung aber keine vollständige Neuformulierung und erkennt nur Claude-eigene Ausgaben. Keine eigene offizielle Anthropic-Primärquelle mit diesen Details auffindbar (technisch nicht abrufbar) — als [UNBESTÄTIGT] geführt.
 - **12.08.2026:** Anthropic hat als erster großer Modellanbieter angekündigt (11.08.2026), sämtliche Claude-Ausgaben weltweit rückwirkend zum Geltungsbeginn der Art.-50-Pflichten (02.08.2026) mit unsichtbaren Text-Wasserzeichen und signierten C2PA-Provenienz-Metadaten für Dateien zu versehen — deckt alle Claude-Produkte ab (API, App, Claude Code, Cowork, Claude Tag, auch via AWS/Google Cloud/Microsoft Foundry). Setzt den zuvor unterzeichneten Code of Practice zur Content-Kennzeichnung technisch um und dürfte als Referenzpunkt für andere Modellanbieter (Microsoft/OpenAI, Google) dienen.
@@ -47,6 +48,7 @@
 - **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
 
 ## EU-US Data Privacy Framework / "Schrems III"
+- **25.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **24.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **21.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **17.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
@@ -66,6 +68,9 @@
 - **06.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **07.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **10.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
+
+## Claude in Microsoft Foundry — EU-Datenzone
+- **25.08.2026 (neu, Radar):** Claude ist seit Juli 2026 in Microsoft Foundry GA, aber weiterhin nur als „Global Standard" und „US Data Zone Standard" verfügbar — keine EU-Datenzone; Verarbeitung läuft auf Anthropic-eigener US-Infrastruktur statt in Azure-EU-Regionen. Anthropics Regional-Compliance-Seite nennt für Foundry Europe weiterhin nur „Coming 2026" ohne konkretes Datum. Relevanz für DB E&C: Kein akuter Bezug, da Claude im Copilot-Modellwähler für EU/EFTA-Tenants standardmäßig deaktiviert ist — im Auge behalten für den Fall künftiger Aktivierung.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
 - **20.07.2026:** BSI hat am 06.07.2026 einen Community Draft des "Prüfkatalog vertrauenswürdige KI-Systeme" (A5) veröffentlicht — eine modulare Audit-Architektur für KI-Systeme entlang der Wertschöpfungskette. Kommentierung bis 31.08.2026 möglich, noch kein finales Dokument; potenziell relevant als Ergänzung/Vorstufe zu ISO/IEC-42001-Audits.
