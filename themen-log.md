@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **31.08.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung im Wochenendfenster (28.–31.08.2026) auffindbar.
 - **28.08.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar. Ergänzend: OpenAI-Sicherheitsvorfall (siehe eigenes Dossier unten) wird von Compliance-Kommentatoren Art.-55-Cybersicherheits-/Meldepflichten für GPAI-Anbieter mit systemischem Risiko zugeordnet, ohne bislang offizielle Positionierung von EU-Kommission/AI Office.
 - **27.08.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar.
 - **26.08.2026 (Radar, Ergänzung):** Status materiell unverändert. Ergänzend recherchiert: CEN/CENELEC hat EN 18286 (Quality-Management-System nach Art. 17, nur für Hochrisiko-Anbieter) bereits am 12.07.2026 als erste AI-Act-Norm überhaupt final verabschiedet — bislang aber ohne Zitierung im EU-Amtsblatt, daher noch keine Konformitätsvermutung. War bisher nicht im Log erfasst; Amtsblatt-Zitierung ab jetzt beobachten.
@@ -51,6 +52,7 @@
 - **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
 
 ## EU-US Data Privacy Framework / "Schrems III"
+- **31.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **28.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **27.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **26.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
@@ -76,9 +78,11 @@
 - **10.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 
 ## Claude in Microsoft Foundry — EU-Datenzone
+- **31.08.2026 (Radar):** InfoQ bestätigt unabhängig recherchierten Stand vom 22.08.2026: weiterhin nur „Global Standard" und „US Data Zone Standard" verfügbar, keine EU-Datenzone. Keine neue Entwicklung ggü. 25.08.2026.
 - **25.08.2026 (neu, Radar):** Claude ist seit Juli 2026 in Microsoft Foundry GA, aber weiterhin nur als „Global Standard" und „US Data Zone Standard" verfügbar — keine EU-Datenzone; Verarbeitung läuft auf Anthropic-eigener US-Infrastruktur statt in Azure-EU-Regionen. Anthropics Regional-Compliance-Seite nennt für Foundry Europe weiterhin nur „Coming 2026" ohne konkretes Datum. Relevanz für DB E&C: Kein akuter Bezug, da Claude im Copilot-Modellwähler für EU/EFTA-Tenants standardmäßig deaktiviert ist — im Auge behalten für den Fall künftiger Aktivierung.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
+- **31.08.2026 (Update):** Kommentierungsfrist des Community Drafts endet heute. Finales Dokument weiterhin ohne Termin; nächster Schritt (Auswertung der Rückmeldungen, finale Fassung) im Auge behalten.
 - **20.07.2026:** BSI hat am 06.07.2026 einen Community Draft des "Prüfkatalog vertrauenswürdige KI-Systeme" (A5) veröffentlicht — eine modulare Audit-Architektur für KI-Systeme entlang der Wertschöpfungskette. Kommentierung bis 31.08.2026 möglich, noch kein finales Dokument; potenziell relevant als Ergänzung/Vorstufe zu ISO/IEC-42001-Audits.
 
 ## OpenAI — Agentic-AI-Sicherheitsvorfall (Hugging Face)
