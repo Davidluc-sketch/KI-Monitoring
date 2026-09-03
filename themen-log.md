@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **03.09.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar.
 - **02.09.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar.
 - **01.09.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar.
 - **31.08.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung im Wochenendfenster (28.–31.08.2026) auffindbar.
@@ -54,6 +55,7 @@
 - **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
 
 ## EU-US Data Privacy Framework / "Schrems III"
+- **03.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **02.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **01.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **31.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
@@ -82,11 +84,13 @@
 - **10.08.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 
 ## Claude in Microsoft Foundry — EU-Datenzone
+- **03.09.2026 (Update):** Anthropic hat am 01.09.2026 „Enterprise Frontier Safeguards" (EFS) angekündigt: Kunden können Interaktionsprotokolle künftig optional in eigenem Cloud-Storage (AWS S3, Azure Blob, GCS) mit selbstverwalteten Schlüsseln statt bei Anthropic ablegen; Rollout ab Herbst 2026 u.a. für Microsoft Foundry vorgesehen. Ändert nichts an der eigentlichen Modellverarbeitung (weiterhin nur „Global Standard"/„US Data Zone Standard", keine EU-Datenzone für die Inferenz) — potenziell aber ein künftiger Baustein für eine EU-Datenresidenz-Argumentation bei Protokollen/Logs.
 - **02.09.2026 (Update zu 25.08.2026):** Anthropic hat am 01.09.2026 mit Claude Fable 5.1 und Mythos 5.1 neue Flaggschiff-Modelle veröffentlicht, die am selben Tag auch in Microsoft Foundry sowie im Copilot-Cowork-/Copilot-Studio-Modellwähler verfügbar wurden. Foundry bietet für Claude weiterhin keine EU-Datenzone (nur „Global Standard"/„US Data Zone Standard"); Anthropic-Modelle bleiben im Copilot-Modellwähler für EU/EFTA/UK-Tenants standardmäßig deaktiviert — kein Compliance-Status-Wechsel.
 - **31.08.2026 (Radar):** InfoQ bestätigt unabhängig recherchierten Stand vom 22.08.2026: weiterhin nur „Global Standard" und „US Data Zone Standard" verfügbar, keine EU-Datenzone. Keine neue Entwicklung ggü. 25.08.2026.
 - **25.08.2026 (neu, Radar):** Claude ist seit Juli 2026 in Microsoft Foundry GA, aber weiterhin nur als „Global Standard" und „US Data Zone Standard" verfügbar — keine EU-Datenzone; Verarbeitung läuft auf Anthropic-eigener US-Infrastruktur statt in Azure-EU-Regionen. Anthropics Regional-Compliance-Seite nennt für Foundry Europe weiterhin nur „Coming 2026" ohne konkretes Datum. Relevanz für DB E&C: Kein akuter Bezug, da Claude im Copilot-Modellwähler für EU/EFTA-Tenants standardmäßig deaktiviert ist — im Auge behalten für den Fall künftiger Aktivierung.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
+- **03.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **02.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **01.09.2026 (Update):** Kommentierungsfrist des Community Drafts ist gestern (31.08.2026) ausgelaufen. Finales Dokument weiterhin ohne Termin; nächster Schritt (Auswertung der Rückmeldungen, finale Fassung) im Auge behalten.
 - **31.08.2026 (Update):** Kommentierungsfrist des Community Drafts endet heute. Finales Dokument weiterhin ohne Termin; nächster Schritt (Auswertung der Rückmeldungen, finale Fassung) im Auge behalten.
