@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **07.09.2026 (Radar):** Status materiell unverändert. Behauptung zu EU-AI-Office-Audits (CNIL/BfDI/AESIA) ab September 2026 kursiert unverändert in Sekundärquellen, weiterhin ohne Primärquellenbeleg (Bundesnetzagentur, EU-Kommission/AI Office per Websuche geprüft) und institutionell unplausibel (drei nationale Behörden für Frankreich/Deutschland/Spanien als angeblich gemeinsame grenzüberschreitende Prüfinstanz entspricht nicht der bekannten AI-Act-Zuständigkeitsstruktur).
 - **04.09.2026 (Radar):** Status materiell unverändert. Mehrere Sekundärquellen kolportieren unbestätigte Meldung zu EU-AI-Office-Audits (CNIL/BfDI/AESIA) ab September 2026 in Personalauswahl, Kreditvergabe, Gesundheitswesen — ohne Primärquelle und widersprüchlich zur bekannten Rechtslage (Anhang-III-Pflichten erst ab 02.12.2027), daher nicht als bestätigte Meldung übernommen.
 - **03.09.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar.
 - **02.09.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar.
@@ -27,6 +28,7 @@
 - **14.07.2026:** EDPB verabschiedet Guidelines-Entwürfe zu Anonymisierung und zu Web-Scraping für generative KI (Konsultation bis 30.10.2026). Digital Omnibus on AI (verschiebt Hochrisiko-Pflichten auf 02.12.2027/02.08.2028) ist final gebilligt, Veröffentlichung im EU-Amtsblatt aber weiterhin ausstehend — muss vor 02.08.2026 erfolgen. Transparenzpflichten nach Art. 50 bleiben unverändert ab 02.08.2026.
 
 ## M365 Copilot — Roadmap & Governance-Features
+- **07.09.2026 (neu):** OpenAI hat am 03.09.2026 GPT-6 Astra veröffentlicht — laut eigenem Preparedness Framework das erste Modell mit „Critical"-Einstufung für Cybersicherheits-Fähigkeiten. Microsoft hat es am 03./04.09.2026 zeitgleich in Copilot Cowork, Copilot Studio, GitHub Copilot und Microsoft Foundry freigeschaltet (Admin-Steuerung im M365 Admin Center); in Foundry nur über ein Limited Access Program in „Global"/„US Data Zone", weiterhin keine EU-Datenzone. Da OpenAI seit 24.07.2026 als optionaler Subprocessor in M365 Copilot aktiviert ist, kann das Modell direkt im Copilot-Modellwähler auftauchen — relevant für eine etwaige Überprüfung der bestehenden Subprocessor-Freigabe, aber kein neuer akuter Handlungsbedarf.
 - **04.09.2026 (neu):** Copilot Studio hat am 01.09.2026 den „Agent-Node" für Workflows (Agent Flows) GA gesetzt: Maker können damit veröffentlichte Copilot-Studio-Agenten als Schritt in automatisierte Workflows einbetten; Ausführung erfolgt mit den Berechtigungen des auslösenden Nutzers (kein Privilegien-Sprung, Aktion schlägt sonst zur Laufzeit fehl). Erweitert die Governance-relevante Verkettungsmöglichkeit von Agenten in Copilot Studio — bei künftigen Agenten-Freigaben mitzudenken, aktuell kein akuter Handlungsbedarf.
 - **20.08.2026 (Update zu 14.08.2026):** Im Zuge der „Super-App"-Umstellung können Admins seit 18.08.2026 einzelne Windows-/Mac-Geräte für den Test der neuen, Chromium-basierten Copilot-Desktop-App anmelden (MC1457084); breiter Rollout ab Mitte September 2026, laut Ankündigung ohne Änderung an Sicherheits-/Compliance-Kontrollen. Zusätzlich erhält klassisches Outlook einen neuen, festen Copilot-Einstiegspunkt neben dem Menüband (MC1358831, Rollout Ende August–Oktober 2026) — beides rein oberflächliche Änderungen ohne neuen Handlungsbedarf.
 - **19.08.2026 (neu):** Copilot Tuning (Feinabstimmung über Agent-Builder-Templates) wird laut MC1454393 (angekündigt 14.08.2026) zugunsten einer neuen, skill-basierten Tuning-Erfahrung in Copilot Studio pausiert. Alle zum 20.08.2026 nicht abgeschlossenen Tuning-Läufe werden ohne automatische Migration verworfen; neue Erfahrung: Public Preview September 2026, GA Dezember 2026.
@@ -57,6 +59,7 @@
 - **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
 
 ## EU-US Data Privacy Framework / "Schrems III"
+- **07.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **04.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **03.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **02.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
@@ -93,6 +96,7 @@
 - **25.08.2026 (neu, Radar):** Claude ist seit Juli 2026 in Microsoft Foundry GA, aber weiterhin nur als „Global Standard" und „US Data Zone Standard" verfügbar — keine EU-Datenzone; Verarbeitung läuft auf Anthropic-eigener US-Infrastruktur statt in Azure-EU-Regionen. Anthropics Regional-Compliance-Seite nennt für Foundry Europe weiterhin nur „Coming 2026" ohne konkretes Datum. Relevanz für DB E&C: Kein akuter Bezug, da Claude im Copilot-Modellwähler für EU/EFTA-Tenants standardmäßig deaktiviert ist — im Auge behalten für den Fall künftiger Aktivierung.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
+- **07.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **04.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **03.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **02.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
