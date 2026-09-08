@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **08.09.2026 (Radar):** Status materiell unverändert. Behauptung zu EU-AI-Office-Audits (CNIL/BfDI/AESIA) kursiert weiterhin unverändert in Sekundärquellen (mittlerweile auch in Folgeartikeln, die erkennbar auf dieselbe ursprüngliche Cubbbix-Behauptung zurückgehen), weiterhin ohne Primärquellenbeleg und institutionell/rechtlich unplausibel wie bereits mehrfach dokumentiert.
 - **07.09.2026 (Radar):** Status materiell unverändert. Behauptung zu EU-AI-Office-Audits (CNIL/BfDI/AESIA) ab September 2026 kursiert unverändert in Sekundärquellen, weiterhin ohne Primärquellenbeleg (Bundesnetzagentur, EU-Kommission/AI Office per Websuche geprüft) und institutionell unplausibel (drei nationale Behörden für Frankreich/Deutschland/Spanien als angeblich gemeinsame grenzüberschreitende Prüfinstanz entspricht nicht der bekannten AI-Act-Zuständigkeitsstruktur).
 - **04.09.2026 (Radar):** Status materiell unverändert. Mehrere Sekundärquellen kolportieren unbestätigte Meldung zu EU-AI-Office-Audits (CNIL/BfDI/AESIA) ab September 2026 in Personalauswahl, Kreditvergabe, Gesundheitswesen — ohne Primärquelle und widersprüchlich zur bekannten Rechtslage (Anhang-III-Pflichten erst ab 02.12.2027), daher nicht als bestätigte Meldung übernommen.
 - **03.09.2026 (Radar):** Status materiell unverändert, keine neue Entwicklung auffindbar.
@@ -59,6 +60,7 @@
 - **16.07.2026:** Bundesrat billigt am 10.07.2026 (gleiche Sitzung wie KI-Durchführungsgesetz) einen Hamburger Gesetzentwurf zur Änderung des BDSG, der die DSK per neuem § 18 BDSG-E erstmals gesetzlich verankert und ein "One-Stop-Shop"-Prinzip für länderübergreifend tätige Unternehmen schafft. Entwurf jetzt beim Bundestag, Inkrafttreten offen.
 
 ## EU-US Data Privacy Framework / "Schrems III"
+- **08.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **07.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **04.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
 - **03.09.2026 (Radar):** Weiterhin keine Klage eingereicht, Status unverändert.
@@ -96,6 +98,7 @@
 - **25.08.2026 (neu, Radar):** Claude ist seit Juli 2026 in Microsoft Foundry GA, aber weiterhin nur als „Global Standard" und „US Data Zone Standard" verfügbar — keine EU-Datenzone; Verarbeitung läuft auf Anthropic-eigener US-Infrastruktur statt in Azure-EU-Regionen. Anthropics Regional-Compliance-Seite nennt für Foundry Europe weiterhin nur „Coming 2026" ohne konkretes Datum. Relevanz für DB E&C: Kein akuter Bezug, da Claude im Copilot-Modellwähler für EU/EFTA-Tenants standardmäßig deaktiviert ist — im Auge behalten für den Fall künftiger Aktivierung.
 
 ## BSI — Prüfkatalog vertrauenswürdige KI-Systeme (A5)
+- **08.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **07.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **04.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.
 - **03.09.2026 (Radar):** Keine neue Entwicklung, Auswertung der Rückmeldungen aus der am 31.08.2026 ausgelaufenen Kommentierungsfrist weiterhin ausstehend.

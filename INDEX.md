@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [08.09.2026](briefings/2026-09/2026-09-08.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [07.09.2026](briefings/2026-09/2026-09-07.md) | OpenAI GPT-6 Astra ab sofort in Copilot Cowork/Studio verfügbar — erstes Modell mit „Critical"-Cybersicherheitseinstufung, keine EU-Datenzone | Copilot, Modelle | 4/5 | Nein |
 | [18.08.2026](briefings/2026-08/2026-08-18.md) | Update zu 11.08. — Purview DLP/Auto-Labeling für Non-Microsoft-Apps jetzt mit MC-ID bestätigt (MC1449180) | Copilot | 4/5 | Nein (2 Vorbereitungshinweise ohne Frist) |
 | [17.08.2026](briefings/2026-08/2026-08-17.md) | Update zu 12.08. — Anthropic bestätigt Detection API für Claude-Wasserzeichen, benennt technische Grenzen | Modelle | 3/5 | Nein |
