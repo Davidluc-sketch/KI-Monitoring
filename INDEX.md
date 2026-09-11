@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [11.09.2026](briefings/2026-09/2026-09-11.md) | Update zu 09.09. — Anthropic legt vierten Cybersicherheitsvorfall offen, lässt METR unabhängig prüfen | Modelle, Datenschutz | 3/5 | Nein |
 | [10.09.2026](briefings/2026-09/2026-09-10.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [09.09.2026](briefings/2026-09/2026-09-09.md) | Nachtrag: Anthropic-Cybersicherheitsvorfälle bei internen KI-Evaluationen (Juli/Aug. 2026) — bislang nicht erfasst, Claude läuft in Foundry/Copilot | Modelle | 3/5 | Nein |
 | [08.09.2026](briefings/2026-09/2026-09-08.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
