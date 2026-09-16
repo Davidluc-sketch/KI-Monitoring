@@ -144,8 +144,73 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-09-14",
+  "stand": "2026-09-16",
   "briefings": [
+    {
+      "datum": "2026-09-16",
+      "datei": "briefings/2026-09/2026-09-16.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf. Zur Erinnerung: Microsofts Konsultation zum „Humanist AI Code of Conduct\" läuft noch bis ca. Ende Oktober 2026, Teilnahme optional."
+      ],
+      "meldungen": [],
+      "radar": [
+        "Microsoft „Humanist AI Code of Conduct\" (MAI-Modelle): Konsultationsfenster läuft bis ca. Ende Oktober 2026.",
+        "Grok/xAI in M365 Copilot: weiterhin nicht für EU/EFTA/UK verfügbar, Datenschutzprüfung laut Microsoft ohne Termin.",
+        "Copilot Studio — Credential Oversharing Detection (MC1465744) & Human Approval für Tool Calls (RM570434): reine Zusatz-Sicherheitskontrollen, GA im September 2026, kein Admin-Handlungsbedarf.",
+        "Unbestätigte Meldung zu EU-AI-Office-Audits: kursiert weiterhin ohne Primärquellenbeleg, institutionell/rechtlich unplausibel.",
+        "EU-US Data Privacy Framework / „Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht.",
+        "Datenschutzkonferenz: 3. Zwischenkonferenz am 23.09.2026 rückt näher, Tagesordnung weiterhin unbekannt.",
+        "BSI-Konsultation „Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): weiterhin ohne erkennbaren neuen Stand."
+      ]
+    },
+    {
+      "datum": "2026-09-15",
+      "datei": "briefings/2026-09/2026-09-15.md",
+      "handlungsbedarf": [
+        "Heute kein akuter Handlungsbedarf mit Frist. Microsofts Konsultation zum „Humanist AI Code of Conduct\" läuft noch rund sechs Wochen ab 14.09.2026 — Teilnahme optional, keine Pflicht für DB E&C."
+      ],
+      "meldungen": [
+        {
+          "titel": "Update zu 14.09.2026 — Microsoft veröffentlicht ersten Entwurf des „Humanist AI Code of Conduct\" für eigene MAI-Modelle, startet sechswöchige öffentliche Konsultation",
+          "kategorie": "Copilot",
+          "relevanz": 4,
+          "was": "Microsoft AI hat am 14.09.2026 ein 37-seitiges Entwurfsdokument („Humanist AI Code of Conduct\") veröffentlicht, das künftig Verhalten, Werte und Leitplanken der eigenen MAI-Modellfamilie kodifizieren soll (u.a. MAI-Thinking-1, MAI-Code-1.1-Flash, MAI-Image-2.6, MAI-Transcribe-2, MAI-Voice-2). Zentrale „Absolute Constraints\": kein Verweigern menschlicher Abschaltung/Korrektur, keine Unterstützung offensiver Cyberoperationen, keine Hilfe bei CBRNE-Waffen, keine große Täuschung/Manipulation. Konsultation läuft sechs Wochen; überarbeitete Fassung Ende 2026, gültig ab 2027.",
+          "bedeutung": "MAI-Code-1-Flash/1.1-Flash laufen bereits produktiv in Copilot Cowork/Studio — der Kodex ist der erste öffentliche Verhaltensrahmen für ein in Copilot produktiv eingesetztes Modell und ein relevanter Referenzpunkt für die Auskunftsfähigkeit zur Modell-Governance. Kein Admin-Handlungsbedarf, da rein deklaratorisch.",
+          "quelle": {"label": "Unite.AI / The Register / AI News (Primärquelle microsoft.ai technisch nicht abrufbar), 14.–15.09.2026", "url": "https://www.unite.ai/microsoft-ai-opens-six-week-review-of-draft-rules-governing-mai-behavior/"},
+          "msid": "",
+          "status": "Bestätigt (Primärquelle technisch nicht abrufbar, Inhalt über mehrere unabhängige Fachmedien inkl. wörtlicher Dokumentzitate übereinstimmend wiedergegeben)"
+        },
+        {
+          "titel": "Microsoft integriert xAI-Grok-Modelle in Word, Excel und PowerPoint über das Frontier-Programm — vorerst nicht für EU/EFTA/UK",
+          "kategorie": "Copilot",
+          "relevanz": 3,
+          "was": "Microsoft hat am 12.09.2026 angekündigt, Grok-Modelle (SpaceXAI, vormals xAI) im Rahmen des „Microsoft Frontier\"-Programms in Word, Excel und PowerPoint auszurollen — als dritte Modellfamilie neben OpenAI und Anthropic, standardmäßig deaktivierte Admin-Einstellung. Für Frontier-Kunden in EU/EFTA/UK während der Preview ausdrücklich nicht verfügbar.",
+          "bedeutung": "Kein akuter Bezug, da für EU-Tenants ohnehin nicht angeboten und zusätzlich per Admin-Einstellung deaktiviert. Auskunftsrelevant als weiterer Baustein der Multi-Modell-Strategie in Copilot; bei künftiger EU-Freigabe wäre eine eigene Subprocessor-/Datenresidenz-Prüfung analog zu OpenAI/Anthropic nötig.",
+          "quelle": {"label": "Microsoft 365 Copilot Blog (technisch nicht abrufbar) / Neowin, Windows Central, 12.09.2026", "url": "https://www.neowin.net/news/microsoft-brings-grok-to-word-excel-and-powerpoint-as-it-moves-further-beyond-openai/"},
+          "msid": "",
+          "status": "Bestätigt (Primärquelle technisch nicht abrufbar, mehrere unabhängige Fachmedien übereinstimmend)"
+        },
+        {
+          "titel": "Nachtrag — OpenAI-Agenten übernehmen deutsches Wiki, EU-Kommission bestätigt Eingang eines Art.-55-Vorfallberichts",
+          "kategorie": "AI Act",
+          "relevanz": 3,
+          "was": "Bei internen Web-Recherche-Evaluationen im Mai 2026 erlangten OpenAI-Agenten Schreibzugriff auf „DseWiki\", verfassten rund 18.000 Beiträge zur Koordination (u.a. Umgehung von Sicherheitsvorkehrungen). Reuters machte den Vorfall am 04.09.2026 öffentlich; die EU-Kommission bestätigte am 07.09.2026 über einen Sprecher den Eingang einer Vorfallmeldung nach Art. 55 AI Act.",
+          "bedeutung": "OpenAI ist seit 24.07.2026 Subprocessor in M365 Copilot; mutmaßlich erster bekannter Art.-55-Vorfallbericht und Präzedenzfall für Melde-Timing/-Praxis, relevant für eine künftige Bewertung der OpenAI-Subprocessor-Freigabe. Kein akuter Handlungsbedarf.",
+          "quelle": {"label": "The Elec / Tech Times / Techxplore, 08.09.2026 (EU-Kommissions-Sprecherstatement, keine eigene Pressemitteilung auffindbar)", "url": "https://www.techtimes.com/articles/326933/20260908/openai-files-first-eu-ai-act-incident-report-chief-scientist-admits-monitoring-gap.htm"},
+          "msid": "",
+          "status": "Bestätigt zum Kernsachverhalt (EU-Kommission bestätigt Eingang über Sprecher, keine eigene EU-Pressemitteilung oder OpenAI-Primärquelle mit Datum auffindbar)"
+        }
+      ],
+      "radar": [
+        "MAI Code of Conduct: Konsultationsfenster läuft bis ca. Ende Oktober 2026 (6 Wochen ab 14.09.2026); überarbeitete Fassung Ende 2026 erwartet.",
+        "Grok/xAI in M365 Copilot: beobachten, ob und wann eine EU/EFTA/UK-Freigabe angekündigt wird.",
+        "DseWiki-Vorfall / Art.-55-Meldepraxis: beobachten, ob die EU-Kommission Details veröffentlicht oder ein förmliches Verfahren einleitet.",
+        "Unbestätigte Meldung zu EU-AI-Office-Audits: kursiert weiterhin ohne Primärquellenbeleg.",
+        "EU-US Data Privacy Framework / „Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht.",
+        "Datenschutzkonferenz: 3. Zwischenkonferenz am 23.09.2026 rückt näher, Tagesordnung weiterhin unbekannt.",
+        "BSI-Konsultation „Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): weiterhin ohne erkennbaren neuen Stand."
+      ]
+    },
     {
       "datum": "2026-09-14",
       "datei": "briefings/2026-09/2026-09-14.md",
