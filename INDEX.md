@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [17.09.2026](briefings/2026-09/2026-09-17.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [16.09.2026](briefings/2026-09/2026-09-16.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [15.09.2026](briefings/2026-09/2026-09-15.md) | Update zu 14.09. — Microsoft veröffentlicht ersten Entwurf des „Humanist AI Code of Conduct" für eigene MAI-Modelle, startet sechswöchige Konsultation | Copilot, Modelle, AI Act | 4/5 | Nein |
 | [14.09.2026](briefings/2026-09/2026-09-14.md) | Anthropic fordert KI-Tempo-Drosselung ("Pace the Frontier"), OpenAI/xAI/Microsoft schließen sich an — Microsoft kündigt Verhaltenskodex für eigene MAI-Modelle an | Modelle | 4/5 | Nein |
