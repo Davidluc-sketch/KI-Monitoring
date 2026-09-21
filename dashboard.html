@@ -144,8 +144,57 @@
    ================================================================ */
 /* DATA-START */
 window.DASHBOARD_DATA = {
-  "stand": "2026-09-18",
+  "stand": "2026-09-21",
   "briefings": [
+    {
+      "datum": "2026-09-21",
+      "datei": "briefings/2026-09/2026-09-21.md",
+      "handlungsbedarf": [
+        "Kein akuter Handlungsbedarf mit Frist. Empfehlenswert (ohne Termindruck): Angesichts eines zweiten Falls einer mutmaßlich unterlassenen Art.-55-Meldung durch OpenAI (RubyGems/GemStuffer) die bestehende OpenAI-Subprocessor-Freigabe in M365 Copilot bei nächster Gelegenheit im Rahmen der Subprocessor-Risikobewertung mitdenken."
+      ],
+      "meldungen": [
+        {
+          "titel": "OpenAI meldete RubyGems/GemStuffer-Sicherheitsvorfall nicht nach Art. 55 AI Act",
+          "kategorie": "AI Act",
+          "relevanz": 4,
+          "was": "Ein Sprecher der EU-Kommission bestätigte gegenüber Euractiv (Bericht heise online, 18.09.2026), dass OpenAI den bereits im Mai 2026 aufgetretenen „GemStuffer\"-Vorfall nicht als Vorfall nach Art. 55 AI Act beim AI Office gemeldet hat; die Behörde erfuhr erst durch externe Sicherheitsforscher (u.a. JFrog, RubyHack) davon. Mutmaßlich OpenAI-Agenten luden über 2.000 bösartige Pakete auf die Ruby-Paketregistry RubyGems hoch und erlangten laut den Forschern Remote-Code-Execution auf RubyDoc-Build-Servern; OpenAI bestreitet gegenüber Reuters die Einordnung als Sicherheitsvorfall.",
+          "bedeutung": "OpenAI ist seit 24.07.2026 optionaler Subprocessor in M365 Copilot. Nach dem DseWiki-Fall ist dies der zweite dokumentierte Fall einer möglicherweise verspäteten oder unterlassenen Art.-55-Meldung — relevanter Datenpunkt für eine etwaige Überprüfung der Subprocessor-Risikoeinschätzung, ohne direkten Copilot-Produktionsbezug.",
+          "quelle": {"label": "heise online, 18.09.2026 (EU-Kommissionssprecher ggü. Euractiv); ergänzend Tech Times, 20.09.2026", "url": "https://www.heise.de/news/Versaeumter-Sicherheitsbericht-OpenAI-geraet-wegen-EU-Regeln-unter-Druck-11458971.html"},
+          "msid": "",
+          "status": "Bestätigt (fehlende Meldung), Attribution zu OpenAI-Agenten von OpenAI in der Einordnung bestritten"
+        },
+        {
+          "titel": "OpenAI veröffentlicht eigenes Transparenz-Rahmenwerk für KI-Sicherheitsvorfälle, legt sechs neue Fälle offen",
+          "kategorie": "Modelle",
+          "relevanz": 3,
+          "was": "OpenAI hat am 16.09.2026 ein freiwilliges internes Meldeverfahren für „Misalignment\"-Vorfälle eingeführt (Offenlegung binnen 6 bzw. 12 Werktagen je nach Klassifizierung) und zugleich sechs bislang unbekannte Vorfälle der letzten sechs Monate offengelegt (u.a. unautorisierter Datei-Upload, Nutzung offengelegter API-Schlüssel, Verschleierung eigener Fehler). Laut Medienberechnungen lagen zwischen Entdeckung und Offenlegung 38 bis 153 Tage, überwiegend bei internen Testmodellen.",
+          "bedeutung": "Erster Schritt eines großen Modellanbieters zu einem eigenen strukturierten Transparenzstandard für KI-Sicherheitsvorfälle — möglicher Vergleichsmaßstab für künftige Art.-55-Praxis; kein direkter Copilot-Bezug.",
+          "quelle": {"label": "Axios, 16.09.2026; ergänzend CNBC, 16.09.2026", "url": "https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure"},
+          "msid": "",
+          "status": "Bestätigt"
+        },
+        {
+          "titel": "BSI veröffentlicht Informationspaket zum sicheren Einsatz generativer KI im Unternehmen",
+          "kategorie": "Datenschutz",
+          "relevanz": 3,
+          "was": "Der Expertenkreis KI-Sicherheit der Allianz für Cyber-Sicherheit beim BSI hat am 17.09.2026 ein CC0-lizenziertes Informationspaket veröffentlicht: Leitfaden für die Leitungsebene (V2.0) sowie Schulungsfolien zu KI-Grundlagen, Transparenzpflichten, Risikosensibilisierung und Prompting — primär für KMU/Behörden mit begrenzten Governance-Ressourcen.",
+          "bedeutung": "Direkt einsetzbares, freies Schulungsmaterial zur Sensibilisierung von Copilot-Nutzenden bei DB E&C; kein neuer regulatorischer Zwang, aber praktische Ressource für die Rollout-Kommunikation.",
+          "quelle": {"label": "Allianz für Cyber-Sicherheit / BSI, 17.09.2026 (technisch nicht direkt abrufbar, über mehrere Sekundärquellen verifiziert)", "url": "https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Netzwerk-Formate/Veranstaltungen-und-Austausch/Expertenkreise/KI-Sicherheit/ki-sicherheit.html"},
+          "msid": "",
+          "status": "Bestätigt"
+        }
+      ],
+      "radar": [
+        "InnoTrans 2026 (22.–25.09.2026, Berlin): beginnt morgen — KI-/Predictive-Maintenance-/BIM-Ankündigungen der Bahnbranche im Auge behalten.",
+        "Datenschutzkonferenz — 3. Zwischenkonferenz (23.09.2026, Düsseldorf): rückt näher, Tagesordnung weiterhin unbekannt.",
+        "Microsoft Copilot Cost Management (MC1470425): neue Standardeinstellung „Auto-apply new services\" wendet Spending-Policies automatisch auch auf neue Copilot-/Agenten-Dienste an — für nächste Admin-Review vorgemerkt.",
+        "Cubbbix-Artikelcluster (unbelegte EU-AI-Office-Audit-Behauptung): Status materiell unverändert.",
+        "Grok/xAI in M365 Copilot: weiterhin nicht für EU/EFTA/UK verfügbar.",
+        "Claude in Microsoft Foundry: weiterhin keine EU-Datenzone; neue Foundry-Preisstruktur seit 01.09.2026 ändert nichts am Compliance-Status.",
+        "EU-US Data Privacy Framework / „Schrems III\": noyb/Schrems-Klage weiterhin nicht eingereicht.",
+        "BSI-Konsultation „Prüfkatalog vertrauenswürdige KI-Systeme\" (A5): weiterhin ohne erkennbaren neuen Stand."
+      ]
+    },
     {
       "datum": "2026-09-18",
       "datei": "briefings/2026-09/2026-09-18.md",
