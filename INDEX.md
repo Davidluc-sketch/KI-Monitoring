@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [22.09.2026](briefings/2026-09/2026-09-22.md) | InnoTrans 2026 eröffnet mit gewachsenem „AI Mobility Lab" (47 Aussteller) | Branche | 2/5 | Nein |
 | [21.09.2026](briefings/2026-09/2026-09-21.md) | EU-Kommission bestätigt: OpenAI meldete RubyGems/GemStuffer-Vorfall nicht nach Art. 55 AI Act — zweiter Fall nach DseWiki | AI Act, Modelle, Datenschutz | 4/5 | Nein (Empfehlung: OpenAI-Subprocessor-Risikobewertung mitdenken) |
 | [18.09.2026](briefings/2026-09/2026-09-18.md) | Keine relevanten neuen Entwicklungen — falsche Ignite-Behauptung zu „Copilot Orchestrator" als Fake identifiziert | — | — | Nein |
 | [17.09.2026](briefings/2026-09/2026-09-17.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
