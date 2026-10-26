@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [26.10.2026](briefings/2026-10/2026-10-26.md) | Keine relevanten neuen Entwicklungen (Erinnerung: EDSA-Konsultation endet laut Sekundärquelle 30.10.) | — | — | Nein |
 | [23.10.2026](briefings/2026-10/2026-10-23.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [22.10.2026](briefings/2026-10/2026-10-22.md) | Microsoft „Copilot for Legal" GA (Legal-Plugin in Word, laut Sekundärquellen default-on) — UNBESTÄTIGT | Copilot | 3/5 | Nein (Empfehlung: Plugin-Status prüfen) |
 | [22.09.2026](briefings/2026-09/2026-09-22.md) | InnoTrans 2026 eröffnet mit gewachsenem „AI Mobility Lab" (47 Aussteller) | Branche | 2/5 | Nein |
