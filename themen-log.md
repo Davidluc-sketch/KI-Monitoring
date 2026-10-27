@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **27.10.2026 (Radar):** Status materiell unverändert; keine neue Leitlinie oder Durchführungsrechtsakt auffindbar. Bußgeld-Konsultation (bis 09.11.2026) und EDSA-Konsultation (30.10.2026) weiter nur sekundär belegt.
 - **26.10.2026 (Radar):** Keine neue Primärquellen-Entwicklung auffindbar; AI-Office-Konsultation zu Bußgeldverfahren läuft laut Sekundärquelle bis 09.11.2026, EDSA-Konsultation (Anonymisierung/Web-Scraping) bis 30.10.2026.
 - **22.10.2026 (Radar):** Laut Sekundärquellen begann das AI Office am 14.10.2026 mit Auskunftsersuchen an Frontier-Anbieter; Entwurf einer Durchführungsverordnung zu Bußgeldverfahren (12.10.2026) in Konsultation bis 09.11.2026. Keine Kommissions-Primärquelle gefunden.
 - **25.09.2026 (Radar):** DSK-Zwischenkonferenz-Ergebnisse weiterhin nicht veröffentlicht. Cubbbix-Behauptung zu EU-AI-Office-Audits (CNIL/BfDI/AESIA, 24 Behörden) verbreitet sich weiter: taucht jetzt auch in einer KI-Suchzusammenfassung auf, die sich auf ein NGO-Bulletin (CDT Europe's AI Bulletin) sowie eine neue Seite (thegputrade.com) beruft — gezielte Prüfung von bundesnetzagentur.de, bfdi.bund.de und digital-strategy.ec.europa.eu weiterhin ohne eigene Bestätigung.
