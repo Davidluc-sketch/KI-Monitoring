@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **29.10.2026 (Update):** Durchführungsbeschluss (EU) 2026/2274 vom 12.10.2026 zitiert EN 18286:2026 (QMS, Art. 17) im Amtsblatt — erste harmonisierte Norm mit Vermutungswirkung ([EUR-Lex](https://eur-lex.europa.eu/eli/dec_impl/2026/2274/oj)). Sonst unverändert; Konsultationen (EDSA 30.10., Bußgeldverfahren 09.11.) laufen.
 - **27.10.2026 (Radar):** Status materiell unverändert; keine neue Leitlinie oder Durchführungsrechtsakt auffindbar. Bußgeld-Konsultation (bis 09.11.2026) und EDSA-Konsultation (30.10.2026) weiter nur sekundär belegt.
 - **26.10.2026 (Radar):** Keine neue Primärquellen-Entwicklung auffindbar; AI-Office-Konsultation zu Bußgeldverfahren läuft laut Sekundärquelle bis 09.11.2026, EDSA-Konsultation (Anonymisierung/Web-Scraping) bis 30.10.2026.
 - **22.10.2026 (Radar):** Laut Sekundärquellen begann das AI Office am 14.10.2026 mit Auskunftsersuchen an Frontier-Anbieter; Entwurf einer Durchführungsverordnung zu Bußgeldverfahren (12.10.2026) in Konsultation bis 09.11.2026. Keine Kommissions-Primärquelle gefunden.
