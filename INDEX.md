@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [30.10.2026](briefings/2026-10/2026-10-30.md) | Keine relevanten neuen Entwicklungen (EDSA-Konsultationsfrist endet heute) | — | — | Ja (Frist 30.10., optional) |
 | [28.10.2026](briefings/2026-10/2026-10-28.md) | Keine relevanten neuen Entwicklungen (EDSA-Konsultationsfrist 30.10. jetzt belegt) | — | — | Ja (Frist 30.10., optional) |
 | [26.10.2026](briefings/2026-10/2026-10-26.md) | Keine relevanten neuen Entwicklungen (Erinnerung: EDSA-Konsultation endet laut Sekundärquelle 30.10.) | — | — | Nein |
 | [23.10.2026](briefings/2026-10/2026-10-23.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
