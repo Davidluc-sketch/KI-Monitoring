@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **05.11.2026 (Radar):** Keine neue Leitlinie oder Durchführungsrechtsakt auffindbar; Hochrisiko-, Art.-50- und Incident-Reporting-Leitlinien weiter ausstehend. Bußgeld-Konsultation läuft bis 09.11.2026.
 - **30.10.2026 (Radar):** Keine neue Leitlinie oder Durchführungsrechtsakt auffindbar. EDSA-Konsultation (Anonymisierung/Web-Scraping) endet heute; Bußgeld-Konsultation des AI Office läuft bis 09.11.2026.
 - **29.10.2026 (Update):** Durchführungsbeschluss (EU) 2026/2274 vom 12.10.2026 zitiert EN 18286:2026 (QMS, Art. 17) im Amtsblatt — erste harmonisierte Norm mit Vermutungswirkung ([EUR-Lex](https://eur-lex.europa.eu/eli/dec_impl/2026/2274/oj)). Sonst unverändert; Konsultationen (EDSA 30.10., Bußgeldverfahren 09.11.) laufen.
 - **27.10.2026 (Radar):** Status materiell unverändert; keine neue Leitlinie oder Durchführungsrechtsakt auffindbar. Bußgeld-Konsultation (bis 09.11.2026) und EDSA-Konsultation (30.10.2026) weiter nur sekundär belegt.
