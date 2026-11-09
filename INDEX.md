@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [09.11.2026](briefings/2026-11/2026-11-09.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [06.11.2026](briefings/2026-11/2026-11-06.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [05.11.2026](briefings/2026-11/2026-11-05.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
 | [04.11.2026](briefings/2026-11/2026-11-04.md) | Keine relevanten neuen Entwicklungen | — | — | Nein |
