@@ -2,6 +2,7 @@
 
 | Datum | Top-Meldung | Kategorien | Max. Relevanz | Handlungsbedarf |
 |---|---|---|---|---|
+| [19.11.2026](briefings/2026-11/2026-11-19.md) | AI Act: Kommission konsultiert Entwurf der FRIA-Vorlage nach Art. 27 (Feedback bis 15.01.2027, Testbetreiber bis 04.12.) | AI Act | 3/5 | Nein (offene Punkte 16./18.11.; optional Testmeldung bis 04.12.) |
 | [18.11.2026](briefings/2026-11/2026-11-18.md) | Nachtrag: Claude in Copilot kommt in die EU Data Boundary, laut MC1546438 ab 09.12.2026 default-on für EU-Tenants ohne Auswahl; Ignite: Home/Office in Copilot GA, Autopilot Frontier | Copilot | 5/5 | Ja (Anthropic-Einstellung vor 09.12. festlegen) |
 | [17.11.2026](briefings/2026-11/2026-11-17.md) | Keine relevanten neuen Entwicklungen (Ignite-Keynote heute 19:00 MEZ) | — | — | Nein (offene Punkte vom 16.11.) |
 | [16.11.2026](briefings/2026-11/2026-11-16.md) | Copilot: neue Admin-Einstellung für Zugriffsanfragen auf UBB-Funktionen (MC1546354); Nachtrag finale Art.-50-Leitlinien (C/2026/6005) | Copilot, AI Act | 5/5 | Ja (UBB-Anfrage-Einstellung festlegen; Art.-50-Richtlinie abgleichen) |

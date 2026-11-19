@@ -3,6 +3,7 @@
 > Wird von der Routine gepflegt. Pro Thema: chronologische Einträge (neueste oben), max. 3 Sätze pro Eintrag.
 
 ## EU AI Act — Umsetzung & Fristen
+- **19.11.2026 (neu):** Die Kommission hat am 16.11.2026 den Entwurf der FRIA-Vorlage nach Art. 27 Abs. 5 mit Erläuterung zur Konsultation gestellt (Feedback bis 15.01.2027, Meldung als Testbetreiber bis 04.12.2026). Art. 27 gilt laut Sekundärquellen ab 02.12.2027; Systeme der kritischen Infrastruktur (Anhang III Nr. 2) sind ausgenommen. Finale Art.-6-Leitlinien weiter ausstehend.
 - **16.11.2026 (neu, Nachtrag):** Die Kommission hat die finalen Leitlinien zu Art. 50 am 05.11.2026 angenommen (C(2026) 7702 final) und am 12.11.2026 im Amtsblatt veröffentlicht (C/2026/6005). Sie ersetzen den Juli-Stand; laut Kanzleianalysen zählen KI-Übersetzungen nun zur normalen Bearbeitung, und die Übergangsfrist bis 02.12.2026 gilt nur für die Markierungspflicht nach Abs. 2 bei Altsystemen. Die Briefings vom 11.–13.11. hatten die Veröffentlichung übersehen.
 - **06.11.2026 (Radar):** Keine neue Leitlinie oder Durchführungsrechtsakt auffindbar; Bußgeld-Konsultation läuft bis 09.11.2026.
 - **05.11.2026 (Radar):** Keine neue Leitlinie oder Durchführungsrechtsakt auffindbar; Hochrisiko-, Art.-50- und Incident-Reporting-Leitlinien weiter ausstehend. Bußgeld-Konsultation läuft bis 09.11.2026.
